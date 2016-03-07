@@ -12,11 +12,32 @@ import UIKit
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
+    var g_var: Global!
+    var mainStoryboard: UIStoryboard!
+    var rightMenu: MenuViewController!
 
 
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
         // Override point for customization after application launch.
         application.statusBarStyle = UIStatusBarStyle.LightContent
+        
+        mainStoryboard = UIStoryboard.init(name: "Main", bundle: nil)
+        rightMenu = mainStoryboard.instantiateViewControllerWithIdentifier("menuCtrl") as! MenuViewController
+        
+        SlideNavigationController.sharedInstance().rightMenu = rightMenu;
+        SlideNavigationController.sharedInstance().leftMenu = nil;
+        SlideNavigationController.sharedInstance().portraitSlideOffset = 180;
+        
+        QBSettings.setApplicationID(36808)
+        QBSettings.setAuthKey("zWg-eNZtzO2HsJW")
+        QBSettings.setAuthSecret("VQ22MMFZbxGqZ3O")
+        QBSettings.setAccountKey("cX3Sp3JgJupNSfZmdcpx")
+        
+        SVProgressHUD.setBackgroundColor(UIColor(red: 0, green: 0, blue: 0, alpha: 0.6))
+        SVProgressHUD.setForegroundColor(UIColor(red: 237/255.0, green: 2/255.0, blue: 140/255.0, alpha: 1.0))
+        
+        g_var = Global()
+        
         return true
     }
 

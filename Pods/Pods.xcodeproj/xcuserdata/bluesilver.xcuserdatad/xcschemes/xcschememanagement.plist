@@ -4,6 +4,16 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
+		<key>DownPicker-DownPicker.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>DownPicker.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 		<key>Pods-3NGAGE.xcscheme</key>
 		<dict>
 			<key>isShown</key>
@@ -32,17 +42,27 @@
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>41FC946D44B55B147C2BF45FBFC5743B</key>
+		<key>0EB368D545DAD9A70A390648EBE4B31B</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>A12F6DEB4752445CBC93B0DBBFC3AE85</key>
+		<key>5C05FADE30EF910B83CBF24CED9FD2F6</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>AC7F92CC85E27A47633A33C67ACA8AAE</key>
+		<key>926A84365F6B93264AF882DA49B7E685</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>CCE983F73F9067B963F0E4726514B218</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>D606D30E69C2058A374EAA74EFD5D863</key>
 		<dict>
 			<key>primary</key>
 			<true/>

@@ -10,4 +10,11 @@ import UIKit
 
 class UpdateViewController: UIViewController {
 
+    @IBAction func menuBtnClk(sender: UIButton) {
+        SlideNavigationController.sharedInstance().toggleRightMenu()
+    }
+    
+    @IBAction func saveBtnClk(sender: UIButton) {
+        SlideNavigationController.sharedInstance().popViewControllerAnimated(true)
+    }
 }

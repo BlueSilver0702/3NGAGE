@@ -8,6 +8,8 @@ target '3NGAGE' do
 pod 'SVProgressHUD'
 pod 'iOS-Slide-Menu'
 pod 'TPKeyboardAvoiding'
+pod 'DownPicker'
+pod 'QuickBlox'
 
 end
 

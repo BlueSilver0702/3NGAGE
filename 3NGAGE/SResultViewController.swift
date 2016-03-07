@@ -91,7 +91,7 @@ class SResultViewController: UIViewController, UIScrollViewDelegate {
     }
     
     @IBAction func menuBtnClk(sender: UIButton) {
-        alert("Menu Clicked!")
+        SlideNavigationController.sharedInstance().toggleRightMenu()
     }
     
     @IBAction func redBtnClk(sender: UIButton) {

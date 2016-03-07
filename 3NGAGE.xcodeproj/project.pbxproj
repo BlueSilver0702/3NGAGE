@@ -8,6 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		273197A8B8581C28A99C8EA0 /* libPods-3NGAGE.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1C293CD593BC6095FD05A764 /* libPods-3NGAGE.a */; };
+		4F009FCD1C8D6CFB002F8EBE /* AddRegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F009FCC1C8D6CFB002F8EBE /* AddRegisterViewController.swift */; };
+		4F009FCF1C8D79B9002F8EBE /* icon-after-pink.png in Resources */ = {isa = PBXBuildFile; fileRef = 4F009FCE1C8D79B9002F8EBE /* icon-after-pink.png */; };
+		4F009FD11C8DBBE9002F8EBE /* Global.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F009FD01C8DBBE9002F8EBE /* Global.swift */; };
+		4F05E0F61C8D5CF800B2985E /* icon-before.png in Resources */ = {isa = PBXBuildFile; fileRef = 4F05E0F51C8D5CF800B2985E /* icon-before.png */; };
 		4F5ED69F1C886AB1000FA346 /* 7335a.png in Resources */ = {isa = PBXBuildFile; fileRef = 4F5ED6971C886AB1000FA346 /* 7335a.png */; };
 		4F5ED6A01C886AB1000FA346 /* 7335b.png in Resources */ = {isa = PBXBuildFile; fileRef = 4F5ED6981C886AB1000FA346 /* 7335b.png */; };
 		4F5ED6A11C886AB1000FA346 /* 7335c.png in Resources */ = {isa = PBXBuildFile; fileRef = 4F5ED6991C886AB1000FA346 /* 7335c.png */; };
@@ -46,6 +50,10 @@
 
 /* Begin PBXFileReference section */
 		1C293CD593BC6095FD05A764 /* libPods-3NGAGE.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-3NGAGE.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4F009FCC1C8D6CFB002F8EBE /* AddRegisterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddRegisterViewController.swift; sourceTree = "<group>"; };
+		4F009FCE1C8D79B9002F8EBE /* icon-after-pink.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "icon-after-pink.png"; path = "Resources/icon-after-pink.png"; sourceTree = "<group>"; };
+		4F009FD01C8DBBE9002F8EBE /* Global.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Global.swift; sourceTree = "<group>"; };
+		4F05E0F51C8D5CF800B2985E /* icon-before.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "icon-before.png"; path = "Resources/icon-before.png"; sourceTree = "<group>"; };
 		4F5ED6971C886AB1000FA346 /* 7335a.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 7335a.png; path = Resources/7335/7335a.png; sourceTree = "<group>"; };
 		4F5ED6981C886AB1000FA346 /* 7335b.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 7335b.png; path = Resources/7335/7335b.png; sourceTree = "<group>"; };
 		4F5ED6991C886AB1000FA346 /* 7335c.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 7335c.png; path = Resources/7335/7335c.png; sourceTree = "<group>"; };
@@ -136,12 +144,14 @@
 			isa = PBXGroup;
 			children = (
 				4F715B681C875400004BAE39 /* AppDelegate.swift */,
+				4F009FD01C8DBBE9002F8EBE /* Global.swift */,
 				4F715B7E1C87557C004BAE39 /* SResultViewController.swift */,
 				4F921C821C8CA15A0088E89C /* InfoViewController.swift */,
 				4F921C881C8CACB50088E89C /* LoginViewController.swift */,
 				4F921C8A1C8CACF50088E89C /* RegisterViewController.swift */,
 				4F921C8C1C8CAD0E0088E89C /* MenuViewController.swift */,
 				4F921C8E1C8CAD8F0088E89C /* UpdateViewController.swift */,
+				4F009FCC1C8D6CFB002F8EBE /* AddRegisterViewController.swift */,
 				4F715B6C1C875400004BAE39 /* Main.storyboard */,
 				4F715B801C8756C7004BAE39 /* Resources */,
 				4F715B6F1C875400004BAE39 /* Assets.xcassets */,
@@ -159,6 +169,8 @@
 				4F921C681C8C9D9A0088E89C /* home */,
 				4F5ED6961C886AA4000FA346 /* pic */,
 				4F715B8D1C8759E2004BAE39 /* pic-1.png */,
+				4F009FCE1C8D79B9002F8EBE /* icon-after-pink.png */,
+				4F05E0F51C8D5CF800B2985E /* icon-before.png */,
 				4F715B871C87594C004BAE39 /* icon-black-heart.png */,
 				4F715B881C87594C004BAE39 /* icon-menu.png */,
 				4F715B891C87594C004BAE39 /* icon-red-heart.png */,
@@ -278,6 +290,7 @@
 				4F5ED6A41C886AB1000FA346 /* 7335f.png in Resources */,
 				4F5ED6A11C886AB1000FA346 /* 7335c.png in Resources */,
 				4F5ED6A31C886AB1000FA346 /* 7335e.png in Resources */,
+				4F05E0F61C8D5CF800B2985E /* icon-before.png in Resources */,
 				4F921C7B1C8C9E640088E89C /* update_search.png in Resources */,
 				4F715B8B1C87594C004BAE39 /* icon-menu.png in Resources */,
 				4F715B8A1C87594C004BAE39 /* icon-black-heart.png in Resources */,
@@ -296,6 +309,7 @@
 				4F5ED6A61C886AB1000FA346 /* 7335h.png in Resources */,
 				4F715B701C875400004BAE39 /* Assets.xcassets in Resources */,
 				4F715B6E1C875400004BAE39 /* Main.storyboard in Resources */,
+				4F009FCF1C8D79B9002F8EBE /* icon-after-pink.png in Resources */,
 				4F715B851C8756D3004BAE39 /* Default.png in Resources */,
 				4F921C721C8C9E290088E89C /* bg4.png in Resources */,
 			);
@@ -363,6 +377,8 @@
 				4F921C831C8CA15A0088E89C /* InfoViewController.swift in Sources */,
 				4F921C8F1C8CAD8F0088E89C /* UpdateViewController.swift in Sources */,
 				4F715B7F1C87557C004BAE39 /* SResultViewController.swift in Sources */,
+				4F009FCD1C8D6CFB002F8EBE /* AddRegisterViewController.swift in Sources */,
+				4F009FD11C8DBBE9002F8EBE /* Global.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

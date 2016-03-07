@@ -1,15 +1,21 @@
 PODS:
+  - DownPicker (0.1.34)
   - iOS-Slide-Menu (1.5)
+  - QuickBlox (2.6.6)
   - SVProgressHUD (1.1.3)
   - TPKeyboardAvoiding (1.2.11)
 
 DEPENDENCIES:
+  - DownPicker
   - iOS-Slide-Menu
+  - QuickBlox
   - SVProgressHUD
   - TPKeyboardAvoiding
 
 SPEC CHECKSUMS:
+  DownPicker: c00ea63f08ae82116cc93d0eba74e86bf3d4c68e
   iOS-Slide-Menu: 40b0cbd8916c42afc755f0869793cd09e7a32102
+  QuickBlox: 8a860f96d8d4694f9d35fbeac9bbb5bc09ed71ec
   SVProgressHUD: 748080e4f36e603f6c02aec292664239df5279c1
   TPKeyboardAvoiding: e5ce146b313de063957bfa75a13f1e9b0ff18ab7
 
