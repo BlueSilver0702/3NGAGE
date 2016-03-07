@@ -663,7 +663,7 @@ That being said, I will NOT compromise on what I want and need in life.
                                                                 <rect key="frame" x="0.0" y="0.0" width="320" height="1"/>
                                                                 <color key="backgroundColor" white="0.66666666666666663" alpha="0.51091056034482762" colorSpace="calibratedWhite"/>
                                                             </view>
-                                                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="7fQ-P2-FHa">
+                                                            <view hidden="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="7fQ-P2-FHa">
                                                                 <rect key="frame" x="0.0" y="1" width="320" height="37"/>
                                                                 <subviews>
                                                                     <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="KGf-UG-nbA">
@@ -686,13 +686,13 @@ That being said, I will NOT compromise on what I want and need in life.
                                                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                                             </view>
                                                             <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="f3g-lX-k39">
-                                                                <rect key="frame" x="0.0" y="38" width="320" height="37"/>
+                                                                <rect key="frame" x="0.0" y="1" width="320" height="37"/>
                                                                 <subviews>
                                                                     <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="P8v-2C-bXR">
                                                                         <rect key="frame" x="14" y="36" width="306" height="1"/>
                                                                         <color key="backgroundColor" white="0.66666666669999997" alpha="0.51091056030000004" colorSpace="calibratedWhite"/>
                                                                     </view>
-                                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="AGE" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rUz-BD-51Q">
+                                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Age" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rUz-BD-51Q">
                                                                         <rect key="frame" x="14" y="8" width="67" height="21"/>
                                                                         <fontDescription key="fontDescription" type="system" weight="light" pointSize="14"/>
                                                                         <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
@@ -708,7 +708,7 @@ That being said, I will NOT compromise on what I want and need in life.
                                                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                                             </view>
                                                             <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Xuq-TK-qsV">
-                                                                <rect key="frame" x="0.0" y="75" width="320" height="37"/>
+                                                                <rect key="frame" x="0.0" y="38" width="320" height="37"/>
                                                                 <subviews>
                                                                     <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="I3s-dg-nR7">
                                                                         <rect key="frame" x="14" y="36" width="306" height="1"/>
@@ -730,7 +730,7 @@ That being said, I will NOT compromise on what I want and need in life.
                                                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                                             </view>
                                                             <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="hey-Aa-If7">
-                                                                <rect key="frame" x="0.0" y="112" width="320" height="37"/>
+                                                                <rect key="frame" x="0.0" y="75" width="320" height="37"/>
                                                                 <subviews>
                                                                     <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="LyS-f5-ZUU">
                                                                         <rect key="frame" x="14" y="36" width="306" height="1"/>
@@ -752,7 +752,7 @@ That being said, I will NOT compromise on what I want and need in life.
                                                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                                             </view>
                                                             <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="tHN-jT-X6d">
-                                                                <rect key="frame" x="0.0" y="149" width="320" height="37"/>
+                                                                <rect key="frame" x="0.0" y="112" width="320" height="37"/>
                                                                 <subviews>
                                                                     <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="45F-OK-cuj">
                                                                         <rect key="frame" x="14" y="36" width="306" height="1"/>
@@ -774,7 +774,7 @@ That being said, I will NOT compromise on what I want and need in life.
                                                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                                             </view>
                                                             <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="8hq-97-F2W">
-                                                                <rect key="frame" x="0.0" y="186" width="320" height="37"/>
+                                                                <rect key="frame" x="0.0" y="149" width="320" height="37"/>
                                                                 <subviews>
                                                                     <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="qG7-hf-gyB">
                                                                         <rect key="frame" x="14" y="36" width="306" height="1"/>
@@ -867,7 +867,6 @@ That being said, I will NOT compromise on what I want and need in life.
                         <outlet property="aliasTxtView" destination="XfI-Fz-fr8" id="YBh-QH-Bc2"/>
                         <outlet property="bioTxtView" destination="BNp-L2-wOJ" id="lSa-pp-Azw"/>
                         <outlet property="bodyTxtView" destination="KsB-u4-iE9" id="vJc-kR-uHH"/>
-                        <outlet property="dobTxtView" destination="xvJ-Z9-XNh" id="B5A-1Z-KGW"/>
                         <outlet property="emailTxtView" destination="w1J-bk-jaL" id="wZf-wX-b8c"/>
                         <outlet property="ethnicityTxtView" destination="2yJ-Nq-KP6" id="tci-OE-Eek"/>
                         <outlet property="fnameTxtView" destination="9mC-HC-cK2" id="mQt-Rw-Wu8"/>

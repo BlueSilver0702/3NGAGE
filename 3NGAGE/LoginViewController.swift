@@ -46,10 +46,12 @@ class LoginViewController: UIViewController {
         
         if unameTxtView.text == "" {
             alert("Please input username!")
+            return
         }
         
         if pwdTxtView.text == "" {
             alert("Please input password!")
+            return
         }
         
         let user:QBUUser = QBUUser()
