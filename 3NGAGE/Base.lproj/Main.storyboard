@@ -168,7 +168,10 @@ That being said, I will NOT compromise on what I want and need in life.
                     </view>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
                     <connections>
+                        <outlet property="aliasLab" destination="1UT-gJ-vtO" id="d36-1t-KH2"/>
                         <outlet property="imgContainer" destination="eDt-ZM-cPN" id="qO8-hc-kL9"/>
+                        <outlet property="metaLab" destination="JMv-m8-Nwj" id="EIZ-5j-77d"/>
+                        <outlet property="nameLab" destination="nPd-7R-SWb" id="rX5-ZC-REW"/>
                         <outlet property="scrollView" destination="VSD-7h-rjm" id="a3P-SO-wj3"/>
                         <outlet property="wrapperScroll" destination="ZWM-lq-t97" id="S6K-Nh-iVP"/>
                     </connections>
@@ -1020,6 +1023,9 @@ That being said, I will NOT compromise on what I want and need in life.
                         <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+                    <connections>
+                        <outlet property="fnameLab" destination="6VC-TO-1Sd" id="dCL-5w-Uzn"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="sAx-de-zMy" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>

@@ -10,4 +10,11 @@ import UIKit
 
 class Global: NSObject {
     var currentUser:QBUUser!
+    var mAge: String = ""
+    var mEthnicity: String = ""
+    var mHeight: String = ""
+    var mBody: String = ""
+    var mBio: String = ""
+    var mAlias: String = ""
+    var mLocation: String = ""
 }

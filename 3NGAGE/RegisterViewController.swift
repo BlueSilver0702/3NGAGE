@@ -62,12 +62,18 @@ class RegisterViewController: UIViewController {
         
         SVProgressHUD.showWithStatus("Registering...")
         QBRequest.signUp(user, successBlock: { (response: QBResponse, registeredUser: QBUUser?) -> Void in
-            
-            SVProgressHUD.dismiss()
-            appDelegate.g_var.currentUser = registeredUser
-            
-            let addView:AddRegisterViewController = appDelegate.mainStoryboard.instantiateViewControllerWithIdentifier("addCtrl") as! AddRegisterViewController
-            self.presentViewController(addView, animated: true, completion: nil)
+            QBRequest.logInWithUserLogin(user.login!, password: user.password!, successBlock: { (signResponse:QBResponse, loginUser:QBUUser?) -> Void in
+                
+                SVProgressHUD.dismiss()
+                appDelegate.g_var.currentUser = loginUser
+                
+                let addView:AddRegisterViewController = appDelegate.mainStoryboard.instantiateViewControllerWithIdentifier("addCtrl") as! AddRegisterViewController
+                self.presentViewController(addView, animated: true, completion: nil)
+                
+                }) { (errResponse: QBResponse) -> Void in
+                    SVProgressHUD.dismiss()
+                    self.alert("Login Failed!")
+            }
             
             }) { (errResponse: QBResponse) -> Void in
                 SVProgressHUD.dismiss()

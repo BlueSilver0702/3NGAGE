@@ -66,8 +66,6 @@ class LoginViewController: UIViewController {
             SVProgressHUD.dismiss()
             appDelegate.g_var.currentUser = loginUser
             
-            appDelegate.rightMenu.updateMenu()
-            
             let resultView:SResultViewController = appDelegate.mainStoryboard.instantiateViewControllerWithIdentifier("resultCtrl") as! SResultViewController
             SlideNavigationController.sharedInstance().pushViewController(resultView, animated: true)
             
@@ -77,6 +75,14 @@ class LoginViewController: UIViewController {
                 SVProgressHUD.dismiss()
                 self.alert("Login Failed!")
         }
+        
+//        var getRequest: [String: String] = ["user_id": String(appDelegate.g_var.currentUser.ID)]
+//        
+//        QBRequest.objectsWithClassName("Meta", extendedRequest: getRequest, successBlock: { (response:QBResponse, objArr:[QBCOCustomObject], page: QBResponsePage) -> Void in
+//            
+//            }) { (errResponse:QBResponse) -> Void in
+//                
+//        }
     }
     
     @IBAction func backBtnClk(sender: UIButton) {

@@ -10,15 +10,21 @@ import UIKit
 
 class MenuViewController: UIViewController {
 
-    var appDelegate: AppDelegate!
+    @IBOutlet weak var fnameLab: UILabel!
     
-    @IBOutlet weak var fnameTxtView: UITextField!
+    var appDelegate: AppDelegate!
     
     override func viewDidLoad() {
         
         super.viewDidLoad()
         
         appDelegate = UIApplication.sharedApplication().delegate as! AppDelegate
+    }
+    
+    override func viewDidAppear(animated: Bool) {
+        super.viewDidAppear(true)
+//
+        self.updateMenu()
     }
     
     @IBAction func viewProfileBtnClk(sender: UIButton) {
@@ -51,7 +57,7 @@ class MenuViewController: UIViewController {
     }
     
     func updateMenu() {
-        self.fnameTxtView.text = appDelegate.g_var.currentUser.fullName
+        fnameLab.text = appDelegate.g_var.currentUser.fullName
     }
     
     func alert(txtMSG: String) {

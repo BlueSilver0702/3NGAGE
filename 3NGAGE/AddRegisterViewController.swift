@@ -81,16 +81,28 @@ class AddRegisterViewController: UIViewController {
     @IBAction func nextBtnClk(sender: UIButton) {
 
         if self.checkValidate() {
+            
+            let appDelegate = UIApplication.sharedApplication().delegate as! AppDelegate
 
             SVProgressHUD.showWithStatus("Saving...")
-            
+        
             let updateParameters: QBUpdateUserParameters = QBUpdateUserParameters()
             updateParameters.fullName = fnameTxtView.text
-            //updateParameters.email = emailTxtView.text
+            updateParameters.email = emailTxtView.text
             
             QBRequest .updateCurrentUser(updateParameters, successBlock: { (response: QBResponse, user:QBUUser?) -> Void in
                 
+                appDelegate.g_var.currentUser = user
+                appDelegate.g_var.mAge = self.agePicker.text
+                appDelegate.g_var.mEthnicity = self.ethnicityPicker.text
+                appDelegate.g_var.mHeight = self.heightPicker.text
+                appDelegate.g_var.mBody = self.bodyPicker.text
+                appDelegate.g_var.mBio = self.bioPicker.text
+                appDelegate.g_var.mAlias = self.aliasTxtView.text!
+                appDelegate.g_var.mLocation = self.locationTxtView.text!
+                
                 let object: QBCOCustomObject = QBCOCustomObject()
+                object.className = "Meta"
                 
                 object.fields!["Age"] = self.agePicker.text
                 object.fields!["Ethnicity"] = self.ethnicityPicker.text
@@ -105,7 +117,6 @@ class AddRegisterViewController: UIViewController {
                     
                     self.dismissViewControllerAnimated(true, completion: nil)
                     
-                    let appDelegate = UIApplication.sharedApplication().delegate as! AppDelegate
                     let resultView:SResultViewController = appDelegate.mainStoryboard.instantiateViewControllerWithIdentifier("resultCtrl") as! SResultViewController
                     SlideNavigationController.sharedInstance().pushViewController(resultView, animated: false)
                     

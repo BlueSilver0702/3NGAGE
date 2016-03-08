@@ -14,12 +14,19 @@ class SResultViewController: UIViewController, UIScrollViewDelegate {
     @IBOutlet weak var imgContainer: UIScrollView!
     @IBOutlet weak var wrapperScroll: UIScrollView!
     
+    @IBOutlet weak var nameLab: UILabel!
+    @IBOutlet weak var aliasLab: UILabel!
+    @IBOutlet weak var metaLab: UILabel!
+    
+    var appDelegate: AppDelegate!
+    
     var ImageWidth: CGFloat = 320
     var ImageHeight: CGFloat = 454
     
     override func viewDidLoad() {
         super.viewDidLoad()
 
+        appDelegate = UIApplication.sharedApplication().delegate as! AppDelegate
         // Do any additional setup after loading the view.
         let imgs: [String] = ["7335a.png", "7335b.png", "7335c.png", "7335d.png", "7335e.png", "7335f.png", "7335g.png", "7335h.png"]
         
@@ -92,6 +99,9 @@ class SResultViewController: UIViewController, UIScrollViewDelegate {
     
     @IBAction func menuBtnClk(sender: UIButton) {
         SlideNavigationController.sharedInstance().toggleRightMenu()
+        if (appDelegate.rightMenu.fnameLab != nil) {
+            appDelegate.rightMenu.updateMenu()
+        }
     }
     
     @IBAction func redBtnClk(sender: UIButton) {
