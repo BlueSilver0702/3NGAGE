@@ -26,7 +26,7 @@ class LoginViewController: UIViewController {
         pwdTxtView.attributedPlaceholder = NSAttributedString(string:"PASSWORD",
             attributes:[NSForegroundColorAttributeName: UIColor.blackColor()])
         
-        NSTimer.scheduledTimerWithTimeInterval(2, target: self, selector: "setBack", userInfo: nil, repeats: true)
+        NSTimer.scheduledTimerWithTimeInterval(5, target: self, selector: "setBack", userInfo: nil, repeats: true)
     }
     
     func setBack() {
@@ -63,26 +63,33 @@ class LoginViewController: UIViewController {
         SVProgressHUD.showWithStatus("Logging in...")
         QBRequest.logInWithUserLogin(user.login!, password: user.password!, successBlock: { (response:QBResponse, loginUser:QBUUser?) -> Void in
             
-            SVProgressHUD.dismiss()
-            appDelegate.g_var.currentUser = loginUser
+            appDelegate.g_var.currentUser.qbUser = loginUser
             
-            let resultView:SResultViewController = appDelegate.mainStoryboard.instantiateViewControllerWithIdentifier("resultCtrl") as! SResultViewController
-            SlideNavigationController.sharedInstance().pushViewController(resultView, animated: true)
-            
-//            self.alert("Successfully Registered!")
+            QBRequest.objectWithClassName("Meta", ID: (loginUser?.twitterDigitsID)!, successBlock: { (response1: QBResponse, obj: QBCOCustomObject?) -> Void in
+
+                appDelegate.g_var.currentUser.mAge = (response1.data?.valueForKey("Age"))! as! String
+                appDelegate.g_var.currentUser.mEthnicity = (response1.data?.valueForKey("Ethnicity"))! as! String
+                appDelegate.g_var.currentUser.mHeight = (response1.data?.valueForKey("Alias"))! as! String
+                appDelegate.g_var.currentUser.mBody = (response1.data?.valueForKey("BodyType"))! as! String
+                appDelegate.g_var.currentUser.mBio = (response1.data?.valueForKey("Bio"))! as! String
+                appDelegate.g_var.currentUser.mAlias = (response1.data?.valueForKey("Alias"))! as! String
+                appDelegate.g_var.currentUser.mLocation = (response1.data?.valueForKey("Location"))! as! String
+
+                SVProgressHUD.dismiss()
+                
+                let loadView:LoadViewController = appDelegate.mainStoryboard.instantiateViewControllerWithIdentifier("loadCtrl") as! LoadViewController
+                loadView.start()
+                SlideNavigationController.sharedInstance().pushViewController(loadView, animated: true)
+
+                }, errorBlock: { (err: QBResponse) -> Void in
+                    SVProgressHUD.dismiss()
+                    self.alert("Retriving Meta Failed!")
+            })
             
             }) { (errResponse: QBResponse) -> Void in
                 SVProgressHUD.dismiss()
                 self.alert("Login Failed!")
         }
-        
-//        var getRequest: [String: String] = ["user_id": String(appDelegate.g_var.currentUser.ID)]
-//        
-//        QBRequest.objectsWithClassName("Meta", extendedRequest: getRequest, successBlock: { (response:QBResponse, objArr:[QBCOCustomObject], page: QBResponsePage) -> Void in
-//            
-//            }) { (errResponse:QBResponse) -> Void in
-//                
-//        }
     }
     
     @IBAction func backBtnClk(sender: UIButton) {

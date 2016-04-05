@@ -17,7 +17,7 @@ class InfoViewController: UIViewController {
         
         super.viewDidLoad()
         
-        NSTimer.scheduledTimerWithTimeInterval(2, target: self, selector: "setBack", userInfo: nil, repeats: true)
+        NSTimer.scheduledTimerWithTimeInterval(5, target: self, selector: "setBack", userInfo: nil, repeats: true)
     }
     
     func setBack() {

@@ -29,7 +29,8 @@ class MenuViewController: UIViewController {
     
     @IBAction func viewProfileBtnClk(sender: UIButton) {
         let resultView:SResultViewController = appDelegate.mainStoryboard.instantiateViewControllerWithIdentifier("resultCtrl") as! SResultViewController
-        SlideNavigationController.sharedInstance().pushViewController(resultView, animated: false)
+        SlideNavigationController.sharedInstance().pushViewController(resultView, animated: true)
+        resultView.initData(appDelegate.g_var.currentUser)
     }
     
     @IBAction func communicationBtnClk(sender: UIButton) {
@@ -44,6 +45,8 @@ class MenuViewController: UIViewController {
     
     @IBAction func logoutBtnClk(sender: UIButton) {
         
+        SlideNavigationController.sharedInstance().toggleRightMenu()
+        
         SVProgressHUD.showWithStatus("Logging out...")
         
         QBRequest.logOutWithSuccessBlock({ (response: QBResponse) -> Void in
@@ -57,7 +60,7 @@ class MenuViewController: UIViewController {
     }
     
     func updateMenu() {
-        fnameLab.text = appDelegate.g_var.currentUser.fullName
+        fnameLab.text = appDelegate.g_var.currentUser.qbUser.fullName
     }
     
     func alert(txtMSG: String) {

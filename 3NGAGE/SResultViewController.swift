@@ -17,11 +17,14 @@ class SResultViewController: UIViewController, UIScrollViewDelegate {
     @IBOutlet weak var nameLab: UILabel!
     @IBOutlet weak var aliasLab: UILabel!
     @IBOutlet weak var metaLab: UILabel!
+    @IBOutlet weak var bioLab: UILabel!
     
     var appDelegate: AppDelegate!
     
     var ImageWidth: CGFloat = 320
     var ImageHeight: CGFloat = 454
+    
+    var mUser: User!
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -50,6 +53,19 @@ class SResultViewController: UIViewController, UIScrollViewDelegate {
         /////////
         self.scrollView.backgroundColor = UIColor.clearColor()
         self.scrollView.contentSize = CGSizeMake(320, 850);
+    }
+    
+    override func viewWillAppear(animated: Bool) {
+        super.viewWillAppear(true)
+        
+        nameLab.text = mUser.qbUser.fullName
+        aliasLab.text = mUser.mAlias
+        metaLab.text = appDelegate.g_var.ethnicitys[mUser.mEthnicity] + ": " + mUser.mHeight + "cm : age-" + mUser.mAge + " : " + appDelegate.g_var.bodys[mUser.mBody]
+        bioLab.text = mUser.mBio
+    }
+    
+    func initData(user: User) {
+        mUser = user
     }
     
     func scrollViewDidScroll(scrollView: UIScrollView) {
@@ -105,14 +121,49 @@ class SResultViewController: UIViewController, UIScrollViewDelegate {
     }
     
     @IBAction func redBtnClk(sender: UIButton) {
-        alert("Red Heart Clicked!")
+        if (mUser == appDelegate.g_var.currentUser) {
+            return
+        }
+        alert("You liked " + mUser.qbUser.fullName!)
+        self.next()
     }
     
     @IBAction func blackBtnClk(sender: UIButton) {
-        alert("Black Heart Clicked!")
+        if (mUser == appDelegate.g_var.currentUser) {
+            return
+        }
+        self.next()
     }
     
-    @IBAction func updateBtnClk(sender: UIButton) {
-        alert("Update Button Clicked!")
+    func next() {
+        self.appDelegate.g_var.currentIndex++
+        if (self.appDelegate.g_var.users.count == self.appDelegate.g_var.currentIndex) {
+            appDelegate.g_var.currentPage++
+            
+            let page: QBGeneralResponsePage = QBGeneralResponsePage(currentPage: UInt(appDelegate.g_var.currentPage), perPage: 20)
+            
+            QBRequest.usersForPage(page, successBlock: { (response: QBResponse, responsePage: QBGeneralResponsePage?, users: [QBUUser]?) -> Void in
+                if users!.count > 0 {
+                    self.appDelegate.g_var.users = []
+                    for user in users! {
+                        let nUser: User = User(user: user)
+                        self.appDelegate.g_var.users.append(nUser)
+                    }
+                    
+                    let resultView:SResultViewController = self.appDelegate.mainStoryboard.instantiateViewControllerWithIdentifier("resultCtrl") as! SResultViewController
+                    SlideNavigationController.sharedInstance().pushViewController(resultView, animated: true)
+                    resultView.initData(self.appDelegate.g_var.users[0])
+                } else {
+                    SVProgressHUD .showErrorWithStatus("There is no search result!")
+                }
+                
+                }) { (errResponse: QBResponse) -> Void in
+                    
+            }
+        } else {
+            let resultView:SResultViewController = self.appDelegate.mainStoryboard.instantiateViewControllerWithIdentifier("resultCtrl") as! SResultViewController
+            SlideNavigationController.sharedInstance().pushViewController(resultView, animated: true)
+            resultView.initData(self.appDelegate.g_var.users[self.appDelegate.g_var.currentIndex])
+        }
     }
 }

@@ -26,7 +26,7 @@ class RegisterViewController: UIViewController {
         pwdTxtView.attributedPlaceholder = NSAttributedString(string:"PASSWORD",
             attributes:[NSForegroundColorAttributeName: UIColor.blackColor()])
         
-        NSTimer.scheduledTimerWithTimeInterval(2, target: self, selector: "setBack", userInfo: nil, repeats: true)
+        NSTimer.scheduledTimerWithTimeInterval(5, target: self, selector: "setBack", userInfo: nil, repeats: true)
     }
     
     func setBack() {
@@ -65,10 +65,11 @@ class RegisterViewController: UIViewController {
             QBRequest.logInWithUserLogin(user.login!, password: user.password!, successBlock: { (signResponse:QBResponse, loginUser:QBUUser?) -> Void in
                 
                 SVProgressHUD.dismiss()
-                appDelegate.g_var.currentUser = loginUser
+                appDelegate.g_var.currentUser.qbUser = loginUser
                 
-                let addView:AddRegisterViewController = appDelegate.mainStoryboard.instantiateViewControllerWithIdentifier("addCtrl") as! AddRegisterViewController
-                self.presentViewController(addView, animated: true, completion: nil)
+                let loadView:LoadViewController = appDelegate.mainStoryboard.instantiateViewControllerWithIdentifier("loadCtrl") as! LoadViewController
+                loadView.start()
+                SlideNavigationController.sharedInstance().pushViewController(loadView, animated: true)
                 
                 }) { (errResponse: QBResponse) -> Void in
                     SVProgressHUD.dismiss()

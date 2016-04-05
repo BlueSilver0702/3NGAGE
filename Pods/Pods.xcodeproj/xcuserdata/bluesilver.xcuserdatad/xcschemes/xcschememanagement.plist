@@ -14,6 +14,16 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
+		<key>M13Checkbox.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>NMRangeSlider.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 		<key>Pods-3NGAGE.xcscheme</key>
 		<dict>
 			<key>isShown</key>
@@ -42,7 +52,7 @@
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>0EB368D545DAD9A70A390648EBE4B31B</key>
+		<key>3385E626FC7EEE5B718B9C301EBDCD43</key>
 		<dict>
 			<key>primary</key>
 			<true/>
@@ -52,17 +62,27 @@
 			<key>primary</key>
 			<true/>
 		</dict>
+		<key>6367D3D7DF75F04AF98EB62212E1F561</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>6C57BEA4E8D6256CEC73E578432A48E6</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>726BA9938EAC88B7BFAE44FFB3C51BC8</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
 		<key>926A84365F6B93264AF882DA49B7E685</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>CCE983F73F9067B963F0E4726514B218</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>D606D30E69C2058A374EAA74EFD5D863</key>
+		<key>BB830A9B8838E6FCC68A4BF1BB1E2142</key>
 		<dict>
 			<key>primary</key>
 			<true/>

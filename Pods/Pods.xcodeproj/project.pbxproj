@@ -7,80 +7,97 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0101C0A39A73401C93F2F5F4F89D3BD5 /* downArrow@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = FAABE91EFFFC85C76F6EAA5BA9489AE9 /* downArrow@3x.png */; };
-		014E5525CB032A9216BF09E8B70D32E1 /* DownPicker-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 03807C357D16CB8D2749CAB8CACAEDC1 /* DownPicker-dummy.m */; };
-		0E2149D8B067DAADF1DF26B2C7466719 /* SlideNavigationContorllerAnimatorSlideAndFade.m in Sources */ = {isa = PBXBuildFile; fileRef = A68FFE048B9CCB635C9409ECD5DD907D /* SlideNavigationContorllerAnimatorSlideAndFade.m */; };
-		0E97CF6069C3A68F7F3221670274B579 /* SlideNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = C259CD81C0ECCB0AFF3117F048E17303 /* SlideNavigationController.m */; };
-		10DDC174E113914E3218E2B4B259F790 /* SlideNavigationContorllerAnimatorSlide.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B63698E956CBFA71E43AF5E853CC297 /* SlideNavigationContorllerAnimatorSlide.m */; };
-		114745892455193D4C5F9D19F0B29613 /* UIScrollView+TPKeyboardAvoidingAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 565ABF7F11E181762B9D77D8A4F55339 /* UIScrollView+TPKeyboardAvoidingAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		14399BF813C7B066444AD7E195EE7C3C /* TPKeyboardAvoidingCollectionView.h in Headers */ = {isa = PBXBuildFile; fileRef = 46D2120FDF48B75CED2A5BF050CD3DE6 /* TPKeyboardAvoidingCollectionView.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		1609EA868C30668636A5E8B5F6D9FD52 /* SVIndefiniteAnimatedView.m in Sources */ = {isa = PBXBuildFile; fileRef = 967AEFDE8918E5DE255224D8B4BC6CA4 /* SVIndefiniteAnimatedView.m */; };
-		1CD39E52A50ED2DA0B0D625B3E257F98 /* SlideNavigationController.h in Headers */ = {isa = PBXBuildFile; fileRef = A5853FDEB27C1738EFEECB43967C66B6 /* SlideNavigationController.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		223CE075A561DADB84D4B198313DB085 /* SlideNavigationContorllerAnimatorScaleAndFade.h in Headers */ = {isa = PBXBuildFile; fileRef = 857074AEFF9E625D8701BB09FFD0A151 /* SlideNavigationContorllerAnimatorScaleAndFade.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		26B7C51173CF309FD518C93D3AFBD746 /* TPKeyboardAvoidingScrollView.h in Headers */ = {isa = PBXBuildFile; fileRef = 41EFD995820080623CDF54E35EC43D5D /* TPKeyboardAvoidingScrollView.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		278F621A27C8FBDE1483D9E585B6C0AD /* SlideNavigationContorllerAnimatorScale.h in Headers */ = {isa = PBXBuildFile; fileRef = 5D8690C887B141CA2855DAA929CFC986 /* SlideNavigationContorllerAnimatorScale.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		287E63E6D5C966BF31011686EDE8BEEE /* SlideNavigationContorllerAnimatorFade.m in Sources */ = {isa = PBXBuildFile; fileRef = 9EAD33E8BA0210FFB1F3AA6282687095 /* SlideNavigationContorllerAnimatorFade.m */; };
-		33951291894B06E96CDCA52CB5EF5F10 /* TPKeyboardAvoidingScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 91ACBED4A07767F1595A8D1531800CC6 /* TPKeyboardAvoidingScrollView.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		34599360BBD114DF26A120A67F401BE8 /* UIScrollView+TPKeyboardAvoidingAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A5995113FA34835402F50DB7C421ED6 /* UIScrollView+TPKeyboardAvoidingAdditions.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		3ED6F5B5DC137AF1D4B3F7875C35780E /* SlideNavigationContorllerAnimatorSlideAndFade.h in Headers */ = {isa = PBXBuildFile; fileRef = 0708C765928CC8DF22935380D3B348B0 /* SlideNavigationContorllerAnimatorSlideAndFade.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		4632CE2FAA5115F95BCB2CD4006B7E7C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 91413329813FA6FE5A78842159E69621 /* Foundation.framework */; };
-		47494C8210E4F52006BBFE53AD9D47A6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 91413329813FA6FE5A78842159E69621 /* Foundation.framework */; };
-		4D136F5E31F0DD1703DCA29079161FC8 /* SVProgressHUD.h in Headers */ = {isa = PBXBuildFile; fileRef = 139FB91D47A5FEF6AE3B073CFD1C8E74 /* SVProgressHUD.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		5B09AFEB06881B8F054EFCCAE54C252A /* SVProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = A5864E77876740CBDDE069C79BC65592 /* SVProgressHUD.m */; };
-		5B28A4A3728556BC38030D44698B5C41 /* SlideNavigationContorllerAnimator.h in Headers */ = {isa = PBXBuildFile; fileRef = F9F5F95B34EE307432758FA32AEAB3F1 /* SlideNavigationContorllerAnimator.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		5E41B67B1EE54A182D313C864EB3FA49 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 91413329813FA6FE5A78842159E69621 /* Foundation.framework */; };
-		5FF4B8B2D58AA256637BD1138040B3BF /* DownPicker.m in Sources */ = {isa = PBXBuildFile; fileRef = 6318C90AEEBDAD487809AC3434A6E240 /* DownPicker.m */; };
-		645877AD07D8C6F6311785659A78E437 /* TPKeyboardAvoidingTableView.h in Headers */ = {isa = PBXBuildFile; fileRef = 9ADE7A07F7995351E9604C2FF60D42D9 /* TPKeyboardAvoidingTableView.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		65EF89283B88F58CAC348F6B6EE6E851 /* iOS-Slide-Menu-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DE74837C29F6AE1E39D4CDB3106B4C38 /* iOS-Slide-Menu-dummy.m */; };
-		69D887E08F01357F82DCC0B019E158BF /* TPKeyboardAvoidingCollectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = D489359450CBFFB56143E0A16C53E879 /* TPKeyboardAvoidingCollectionView.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		73AA2E4357B6149E15E9F9972839A360 /* SlideNavigationContorllerAnimatorScaleAndFade.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A13CC54FFC994A8239E686BDD39857A /* SlideNavigationContorllerAnimatorScaleAndFade.m */; };
-		749BD82EBAC60C214466DF3D94981998 /* TPKeyboardAvoiding-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D5F76EB2A5C33529990C65EDF3F53850 /* TPKeyboardAvoiding-dummy.m */; };
-		7BBEF109FBC7B1AB97F0F394419055F2 /* UIDownPicker.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CFA61C4BE2841039C22614ED5CFF65B /* UIDownPicker.m */; };
-		83268FC838AE77C31EF8CC0D403A1F9E /* SlideNavigationContorllerAnimatorFade.h in Headers */ = {isa = PBXBuildFile; fileRef = 04B62A2134CF57FF928A591D067DC798 /* SlideNavigationContorllerAnimatorFade.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		947A0BB158CD523551E7591C6C98AF4E /* downArrow@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5347C7201756140008C1C20D4D5E8FDE /* downArrow@2x.png */; };
-		9789FAE9034342E14AF81F0BE0E17301 /* UIDownPicker.h in Headers */ = {isa = PBXBuildFile; fileRef = EED3F6924215FB01D2EADA87DB5A967E /* UIDownPicker.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		9BC09E797FB62F687775D8B0EBF6B74A /* downArrow.png in Resources */ = {isa = PBXBuildFile; fileRef = F84DE010EDE857CA29BA07DBFABEA9DC /* downArrow.png */; };
-		9F13AE4690292F2F83B5C2F094BE692F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 91413329813FA6FE5A78842159E69621 /* Foundation.framework */; };
-		A1162ABACA373B404FD41BE141A1BE41 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D9DE615671731BF3AEFB3CB1F984FA8F /* UIKit.framework */; };
-		A38A5771356CC9885D0204A71CDCB048 /* SlideNavigationContorllerAnimatorSlide.h in Headers */ = {isa = PBXBuildFile; fileRef = 581D42A8E5CDE6FA418AD2E8270F4807 /* SlideNavigationContorllerAnimatorSlide.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		A9F942A072FFE2FC49A95820939162E5 /* SVProgressHUD-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E4CC0E16852DB0260C5202A149CE3BC2 /* SVProgressHUD-dummy.m */; };
-		BF33D655E49AE4C622F129FBB762F17A /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E642B1A057ADA2ABEF90BE2417F349C1 /* QuartzCore.framework */; };
-		CE3225EFFA17672A2711E2E79A65B89C /* Pods-3NGAGE-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 09E2760E6C14AA26C7ABF1AC6811D342 /* Pods-3NGAGE-dummy.m */; };
-		D2AF2CDE1DDC6797EB168F37F757A2A9 /* TPKeyboardAvoidingTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2487D6CB9393425B5719714CEE21B2A7 /* TPKeyboardAvoidingTableView.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		DB49B78C65BF1BEB8E3E3AD1FD3DA89F /* SVIndefiniteAnimatedView.h in Headers */ = {isa = PBXBuildFile; fileRef = 8DDBCAC99FCECA3057DDBF5F738148E1 /* SVIndefiniteAnimatedView.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		E524B50639F4EE77F800A74B46CDD842 /* SlideNavigationContorllerAnimatorScale.m in Sources */ = {isa = PBXBuildFile; fileRef = D5B678360EBC5A162C4F7FC62BD2B969 /* SlideNavigationContorllerAnimatorScale.m */; };
-		EBABDD0769F96BA5F348EBA6CB5FCC1C /* DownPicker.h in Headers */ = {isa = PBXBuildFile; fileRef = 956ED35C4F3DD3C8BDD550CB93218FBE /* DownPicker.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F48DE7505D36FA6A3CAB55313762B5B0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 91413329813FA6FE5A78842159E69621 /* Foundation.framework */; };
+		0101C0A39A73401C93F2F5F4F89D3BD5 /* downArrow@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = BB1C8D18A5F3ADBE83E3AE18C0E47609 /* downArrow@3x.png */; };
+		014E5525CB032A9216BF09E8B70D32E1 /* DownPicker-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = AD174A9FB5B45D3625DC26CA32143BD7 /* DownPicker-dummy.m */; };
+		0E2149D8B067DAADF1DF26B2C7466719 /* SlideNavigationContorllerAnimatorSlideAndFade.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D0B0117AA08FB972F59BB9CE62DEA4E /* SlideNavigationContorllerAnimatorSlideAndFade.m */; };
+		0E97CF6069C3A68F7F3221670274B579 /* SlideNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = B649815F5AEA1A2E1EB5F6B7E4C81FFA /* SlideNavigationController.m */; };
+		0F79B2487139DE04566504888BD9CA7F /* UIScrollView+TPKeyboardAvoidingAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = BE8404F9A09DFA9A93600C447301201A /* UIScrollView+TPKeyboardAvoidingAdditions.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		10DDC174E113914E3218E2B4B259F790 /* SlideNavigationContorllerAnimatorSlide.m in Sources */ = {isa = PBXBuildFile; fileRef = C8EC1405211424CC2C91D149BA22ACCE /* SlideNavigationContorllerAnimatorSlide.m */; };
+		17AB07D8D270B6E76FB5A5950A28A559 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE437620300D81EED04DF8C0301AF9D9 /* Foundation.framework */; };
+		1CD39E52A50ED2DA0B0D625B3E257F98 /* SlideNavigationController.h in Headers */ = {isa = PBXBuildFile; fileRef = 032DFC6BED8E0F239570773A2184C574 /* SlideNavigationController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		21204CD20784E06E0730CF4D40B8D5F7 /* NMRangeSlider-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 543D15FE0CF13A3A9D5176C3767C43E8 /* NMRangeSlider-dummy.m */; };
+		223CE075A561DADB84D4B198313DB085 /* SlideNavigationContorllerAnimatorScaleAndFade.h in Headers */ = {isa = PBXBuildFile; fileRef = 17055F597AA3291C5854642611AEA45F /* SlideNavigationContorllerAnimatorScaleAndFade.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		278F621A27C8FBDE1483D9E585B6C0AD /* SlideNavigationContorllerAnimatorScale.h in Headers */ = {isa = PBXBuildFile; fileRef = 677174B5687D740C547A4812F8368C8A /* SlideNavigationContorllerAnimatorScale.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		287E63E6D5C966BF31011686EDE8BEEE /* SlideNavigationContorllerAnimatorFade.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F1C122C196276526A07580616D080EA /* SlideNavigationContorllerAnimatorFade.m */; };
+		351457F6C42F273B28AD298DD5DA487C /* SVProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 28FD170CEAC62E94789304EA28C05BAE /* SVProgressHUD.m */; };
+		36566E78171B2BCA3392E1669B1B496E /* M13Checkbox-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 887067EA910ECCD141B63423CD213F80 /* M13Checkbox-dummy.m */; };
+		3BD30B299F84BA462DB7B718FCE26F80 /* TPKeyboardAvoiding-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 16DBAF256C0A67BAF13B1FF6E3027A87 /* TPKeyboardAvoiding-dummy.m */; };
+		3ED6F5B5DC137AF1D4B3F7875C35780E /* SlideNavigationContorllerAnimatorSlideAndFade.h in Headers */ = {isa = PBXBuildFile; fileRef = 61E752CFCD753C37E53A2E64110207CF /* SlideNavigationContorllerAnimatorSlideAndFade.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3EE61E37944B50702D2A53D50ECF6D43 /* SVIndefiniteAnimatedView.m in Sources */ = {isa = PBXBuildFile; fileRef = 510CC5C6F83E4EF3172CAAE3C923DEDB /* SVIndefiniteAnimatedView.m */; };
+		47494C8210E4F52006BBFE53AD9D47A6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE437620300D81EED04DF8C0301AF9D9 /* Foundation.framework */; };
+		4B7857037C1430D79EF0650BFA37BBB2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE437620300D81EED04DF8C0301AF9D9 /* Foundation.framework */; };
+		4C9C6F0AD5CE3261CAD5138AE64E1773 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE437620300D81EED04DF8C0301AF9D9 /* Foundation.framework */; };
+		4DC108C1368AFC6A30AD2EDC2CABE84A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ED04AE2201316F6590E7AD9952706C7B /* UIKit.framework */; };
+		5B28A4A3728556BC38030D44698B5C41 /* SlideNavigationContorllerAnimator.h in Headers */ = {isa = PBXBuildFile; fileRef = FF642D904A24BFBA5C8D72EC32E560D3 /* SlideNavigationContorllerAnimator.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5FF4B8B2D58AA256637BD1138040B3BF /* DownPicker.m in Sources */ = {isa = PBXBuildFile; fileRef = EBF023E0C252513222F5F6957303857B /* DownPicker.m */; };
+		65EF89283B88F58CAC348F6B6EE6E851 /* iOS-Slide-Menu-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = AB225CD8DCE34C386EF65E77C0A5E31D /* iOS-Slide-Menu-dummy.m */; };
+		67B7FA82440C15E83A0499AA5EBD946D /* UIScrollView+TPKeyboardAvoidingAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = BE1674DC7586B3734A615BDE3B213044 /* UIScrollView+TPKeyboardAvoidingAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6E2F7EAFA14A8BAECED12F5821AF17B9 /* Pods-3NGAGE-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 09E2760E6C14AA26C7ABF1AC6811D342 /* Pods-3NGAGE-dummy.m */; };
+		73AA2E4357B6149E15E9F9972839A360 /* SlideNavigationContorllerAnimatorScaleAndFade.m in Sources */ = {isa = PBXBuildFile; fileRef = BBB9C14DA2D92138C6EF5B209A5BE353 /* SlideNavigationContorllerAnimatorScaleAndFade.m */; };
+		7BBEF109FBC7B1AB97F0F394419055F2 /* UIDownPicker.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B1EF166E05902CE7695057468C1B903 /* UIDownPicker.m */; };
+		80C5B2176A6A5BE51FF6D2108983F6F4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE437620300D81EED04DF8C0301AF9D9 /* Foundation.framework */; };
+		813F1EA331BA6DC6B1AE1E2B9D8198C4 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0DD25CA4A497622D5ABF4C433D79E4DE /* QuartzCore.framework */; };
+		826D3469FF493187330F2173EB981F06 /* NMRangeSlider.m in Sources */ = {isa = PBXBuildFile; fileRef = 158D0E6110C9ED0A02C5C464D8F693C5 /* NMRangeSlider.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		83268FC838AE77C31EF8CC0D403A1F9E /* SlideNavigationContorllerAnimatorFade.h in Headers */ = {isa = PBXBuildFile; fileRef = 6978EA89BA507E8C506432E6F32BB618 /* SlideNavigationContorllerAnimatorFade.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8A31D9DD6C3CB1C83E189E99F58ACF4C /* NMRangeSlider.h in Headers */ = {isa = PBXBuildFile; fileRef = 84BFF146932090FFC1D3ACBA0CE7E295 /* NMRangeSlider.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		947A0BB158CD523551E7591C6C98AF4E /* downArrow@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 811583B7B398140E7C094BF4DF8E78C3 /* downArrow@2x.png */; };
+		9789FAE9034342E14AF81F0BE0E17301 /* UIDownPicker.h in Headers */ = {isa = PBXBuildFile; fileRef = 9194784D32FCE392D85FB0ACBAAD5146 /* UIDownPicker.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		996A66970C91A5913F4DC83555F84C8A /* TPKeyboardAvoidingCollectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D95AE5B73AAD6E350BF9201CAD89472 /* TPKeyboardAvoidingCollectionView.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		9BC09E797FB62F687775D8B0EBF6B74A /* downArrow.png in Resources */ = {isa = PBXBuildFile; fileRef = 68007FA4C9155DAB960534AD5A704814 /* downArrow.png */; };
+		9D11098D8BE47C57A465D8DF515DE3A5 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4AE7FD0E16F3FACCFE19068F1E872D9F /* CoreGraphics.framework */; };
+		9F13AE4690292F2F83B5C2F094BE692F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE437620300D81EED04DF8C0301AF9D9 /* Foundation.framework */; };
+		9F374D926754AAA9997F0D80ABD50D0D /* M13Checkbox.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CCA36A04199F0F7E0341A64C65C4979 /* M13Checkbox.m */; };
+		A05AE06FC7B1962BC84E10896873F647 /* SVIndefiniteAnimatedView.h in Headers */ = {isa = PBXBuildFile; fileRef = E20A4F809BE2FDA803829864017F389F /* SVIndefiniteAnimatedView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A1162ABACA373B404FD41BE141A1BE41 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ED04AE2201316F6590E7AD9952706C7B /* UIKit.framework */; };
+		A38A5771356CC9885D0204A71CDCB048 /* SlideNavigationContorllerAnimatorSlide.h in Headers */ = {isa = PBXBuildFile; fileRef = A02894EFD8F7E45C5BA7584549522802 /* SlideNavigationContorllerAnimatorSlide.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B49460F1FB7F7BD5C0935DB9D695E3AF /* TPKeyboardAvoidingScrollView.h in Headers */ = {isa = PBXBuildFile; fileRef = 4C8E5C019B68B7EF9D11DCDE5253AFBA /* TPKeyboardAvoidingScrollView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C0A10EF06D12B659A99125F913100BAB /* TPKeyboardAvoidingCollectionView.h in Headers */ = {isa = PBXBuildFile; fileRef = FEAD5622ABCEE80D733E7740CDAF3385 /* TPKeyboardAvoidingCollectionView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C751E09E34CE2242D57B663762A9F9FE /* SVProgressHUD-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 112446A2AE4277D00626DE52982D0B97 /* SVProgressHUD-dummy.m */; };
+		D689AA9B9B8A1F6BB54895EB43624C5C /* TPKeyboardAvoidingTableView.h in Headers */ = {isa = PBXBuildFile; fileRef = 00A9755ED40E2165EFFAD95402CAB165 /* TPKeyboardAvoidingTableView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DE09B65A24E66AD4DE5F8B2EF74FE035 /* TPKeyboardAvoidingScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = BBE23734D19F2DDB81434240676CDB7B /* TPKeyboardAvoidingScrollView.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		E0582AD908C68615949AAF350188F81C /* TPKeyboardAvoidingTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = A303A22E57EC0FB5AA59AACEA3DF351A /* TPKeyboardAvoidingTableView.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		E524B50639F4EE77F800A74B46CDD842 /* SlideNavigationContorllerAnimatorScale.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AE5A73654C8CC7B4FAA1ECFDEB85FC6 /* SlideNavigationContorllerAnimatorScale.m */; };
+		EBA2F3D2D0F585F9153AF0A6BEC61909 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE437620300D81EED04DF8C0301AF9D9 /* Foundation.framework */; };
+		EBABDD0769F96BA5F348EBA6CB5FCC1C /* DownPicker.h in Headers */ = {isa = PBXBuildFile; fileRef = B53A8A1C56F3564D913E52C57BD57DC8 /* DownPicker.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EECCBBF1722DB5489B874CCBFE6A42AA /* M13Checkbox.h in Headers */ = {isa = PBXBuildFile; fileRef = EC63107F35A3842149166A2C2303C3E6 /* M13Checkbox.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F2339B7BC186B399650EDD37028A0BA2 /* SVProgressHUD.h in Headers */ = {isa = PBXBuildFile; fileRef = 49153EE9B910BBECF68330F7D8F6218C /* SVProgressHUD.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		08773806C9971DC973AA7033AF0BD601 /* PBXContainerItemProxy */ = {
+		A75C622DE7DF7AC44F5E39398E5B2BCF /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 0EB368D545DAD9A70A390648EBE4B31B;
+			remoteGlobalIDString = 726BA9938EAC88B7BFAE44FFB3C51BC8;
 			remoteInfo = TPKeyboardAvoiding;
 		};
-		3223047398B63E68F405FC4FCD8ED574 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = CCE983F73F9067B963F0E4726514B218;
-			remoteInfo = SVProgressHUD;
-		};
-		7570FC20798674A206F130540B963CC1 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 5C05FADE30EF910B83CBF24CED9FD2F6;
-			remoteInfo = DownPicker;
-		};
-		98C881E6E70DE39DC9EC8DB5009AF0B1 /* PBXContainerItemProxy */ = {
+		AE8FC19BBA33ADF20D2E12CF060DEA14 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 01C8647DD33AEB6D8706D1A9DB17FA18;
 			remoteInfo = "iOS-Slide-Menu";
+		};
+		B3B52936D33C2CA7B7AE327213C469E2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3385E626FC7EEE5B718B9C301EBDCD43;
+			remoteInfo = NMRangeSlider;
+		};
+		B5ABBB51DB4595B7CE9FB0736EC6DE09 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6C57BEA4E8D6256CEC73E578432A48E6;
+			remoteInfo = SVProgressHUD;
+		};
+		D043C849EF498D3640D2CB6FDDF631D8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6367D3D7DF75F04AF98EB62212E1F561;
+			remoteInfo = M13Checkbox;
 		};
 		D6A55142D4153B6ECDB2A2E9DBEAA754 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -89,91 +106,136 @@
 			remoteGlobalIDString = 926A84365F6B93264AF882DA49B7E685;
 			remoteInfo = "DownPicker-DownPicker";
 		};
+		F97C392CC827F2D85696A0F6DBDE9D48 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5C05FADE30EF910B83CBF24CED9FD2F6;
+			remoteInfo = DownPicker;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		00BE2F7C2057E38572C839EB45E4D368 /* Quickblox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Quickblox.framework; sourceTree = "<group>"; };
-		03807C357D16CB8D2749CAB8CACAEDC1 /* DownPicker-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "DownPicker-dummy.m"; sourceTree = "<group>"; };
-		04B62A2134CF57FF928A591D067DC798 /* SlideNavigationContorllerAnimatorFade.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SlideNavigationContorllerAnimatorFade.h; path = SlideMenu/Source/Animations/SlideNavigationContorllerAnimatorFade.h; sourceTree = "<group>"; };
-		0708C765928CC8DF22935380D3B348B0 /* SlideNavigationContorllerAnimatorSlideAndFade.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SlideNavigationContorllerAnimatorSlideAndFade.h; path = SlideMenu/Source/Animations/SlideNavigationContorllerAnimatorSlideAndFade.h; sourceTree = "<group>"; };
+		00A9755ED40E2165EFFAD95402CAB165 /* TPKeyboardAvoidingTableView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TPKeyboardAvoidingTableView.h; path = TPKeyboardAvoiding/TPKeyboardAvoidingTableView.h; sourceTree = "<group>"; };
+		032DFC6BED8E0F239570773A2184C574 /* SlideNavigationController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SlideNavigationController.h; path = SlideMenu/Source/SlideNavigationController.h; sourceTree = "<group>"; };
+		042194894046260418A83CEC194BB66F /* TPKeyboardAvoiding-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TPKeyboardAvoiding-prefix.pch"; sourceTree = "<group>"; };
+		06427E4FCE2CA72B3CC14E4C224F825E /* slider-default7-track@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "slider-default7-track@2x.png"; path = "NMRangeSlider/DefaultTheme7/slider-default7-track@2x.png"; sourceTree = "<group>"; };
+		06AD6C48E7750A6B7298F4855F37C633 /* slider-default-handle.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "slider-default-handle.png"; path = "NMRangeSlider/DefaultTheme/slider-default-handle.png"; sourceTree = "<group>"; };
+		097971B51E387E32A7F5539C406E2B7E /* slider-default7-trackBackground@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "slider-default7-trackBackground@2x.png"; path = "NMRangeSlider/DefaultTheme7/slider-default7-trackBackground@2x.png"; sourceTree = "<group>"; };
 		09E2760E6C14AA26C7ABF1AC6811D342 /* Pods-3NGAGE-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-3NGAGE-dummy.m"; sourceTree = "<group>"; };
-		139FB91D47A5FEF6AE3B073CFD1C8E74 /* SVProgressHUD.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SVProgressHUD.h; path = SVProgressHUD/SVProgressHUD.h; sourceTree = "<group>"; };
-		2487D6CB9393425B5719714CEE21B2A7 /* TPKeyboardAvoidingTableView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TPKeyboardAvoidingTableView.m; path = TPKeyboardAvoiding/TPKeyboardAvoidingTableView.m; sourceTree = "<group>"; };
-		282FB6701B3FFF9A9D55B5A81A479243 /* SVProgressHUD-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SVProgressHUD-prefix.pch"; sourceTree = "<group>"; };
-		2ABC43508B8F6B4B96AD74517914955F /* libiOS-Slide-Menu.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libiOS-Slide-Menu.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0A75419A24E5C0EACAE57BD007449320 /* slider-default7-trackCrossedOver@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "slider-default7-trackCrossedOver@2x.png"; path = "NMRangeSlider/DefaultTheme7/slider-default7-trackCrossedOver@2x.png"; sourceTree = "<group>"; };
+		0DD25CA4A497622D5ABF4C433D79E4DE /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
+		112446A2AE4277D00626DE52982D0B97 /* SVProgressHUD-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SVProgressHUD-dummy.m"; sourceTree = "<group>"; };
+		13E9E4B95D3B3F558098D1008303CD1D /* slider-default-trackCrossedOver@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "slider-default-trackCrossedOver@2x.png"; path = "NMRangeSlider/DefaultTheme/slider-default-trackCrossedOver@2x.png"; sourceTree = "<group>"; };
+		158D0E6110C9ED0A02C5C464D8F693C5 /* NMRangeSlider.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NMRangeSlider.m; path = NMRangeSlider/NMRangeSlider.m; sourceTree = "<group>"; };
+		16DBAF256C0A67BAF13B1FF6E3027A87 /* TPKeyboardAvoiding-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "TPKeyboardAvoiding-dummy.m"; sourceTree = "<group>"; };
+		17055F597AA3291C5854642611AEA45F /* SlideNavigationContorllerAnimatorScaleAndFade.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SlideNavigationContorllerAnimatorScaleAndFade.h; path = SlideMenu/Source/Animations/SlideNavigationContorllerAnimatorScaleAndFade.h; sourceTree = "<group>"; };
+		1E86C81B07F7772988A9FF4EAF831298 /* slider-metal-handle@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "slider-metal-handle@2x.png"; path = "NMRangeSlider/MetalTheme/slider-metal-handle@2x.png"; sourceTree = "<group>"; };
+		23671F9211ED446CAF8DC0F82415592A /* DownPicker.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = DownPicker.xcconfig; sourceTree = "<group>"; };
+		28FD170CEAC62E94789304EA28C05BAE /* SVProgressHUD.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SVProgressHUD.m; path = SVProgressHUD/SVProgressHUD.m; sourceTree = "<group>"; };
+		2AE5A73654C8CC7B4FAA1ECFDEB85FC6 /* SlideNavigationContorllerAnimatorScale.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SlideNavigationContorllerAnimatorScale.m; path = SlideMenu/Source/Animations/SlideNavigationContorllerAnimatorScale.m; sourceTree = "<group>"; };
+		2F017E94C0903C5360184D27D6CC8182 /* iOS-Slide-Menu.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "iOS-Slide-Menu.xcconfig"; sourceTree = "<group>"; };
 		378851D9F61357206E0475ACB0987F39 /* Pods-3NGAGE-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-3NGAGE-resources.sh"; sourceTree = "<group>"; };
-		37E54C5EB8327FF8E2FE0A3EF8869C70 /* DownPicker.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DownPicker.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
-		38B31DBF48E13DE8BF02F0E550655B9F /* libPods-3NGAGE.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-3NGAGE.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		39849E572130568782241C82E4AEEEA3 /* Quickblox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Quickblox.framework; sourceTree = "<group>"; };
+		39AA1A8AEA4B98E07EFF4FD9CCD12550 /* slider-default7-track.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "slider-default7-track.png"; path = "NMRangeSlider/DefaultTheme7/slider-default7-track.png"; sourceTree = "<group>"; };
+		3B59D18B55025E3059A5509739F4C1BB /* slider-default-handle-highlighted.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "slider-default-handle-highlighted.png"; path = "NMRangeSlider/DefaultTheme/slider-default-handle-highlighted.png"; sourceTree = "<group>"; };
 		3BFD834D4B97388697E3E364A720933E /* Pods-3NGAGE.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-3NGAGE.release.xcconfig"; sourceTree = "<group>"; };
-		3CFA61C4BE2841039C22614ED5CFF65B /* UIDownPicker.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = UIDownPicker.m; path = Pod/Classes/UIDownPicker.m; sourceTree = "<group>"; };
-		41EFD995820080623CDF54E35EC43D5D /* TPKeyboardAvoidingScrollView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TPKeyboardAvoidingScrollView.h; path = TPKeyboardAvoiding/TPKeyboardAvoidingScrollView.h; sourceTree = "<group>"; };
-		44AA1D5A2D72149CF0DAFB97C8BF6A99 /* menu-button@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "menu-button@2x.png"; path = "SlideMenu/Source/Assets/menu-button@2x.png"; sourceTree = "<group>"; };
-		46D2120FDF48B75CED2A5BF050CD3DE6 /* TPKeyboardAvoidingCollectionView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TPKeyboardAvoidingCollectionView.h; path = TPKeyboardAvoiding/TPKeyboardAvoidingCollectionView.h; sourceTree = "<group>"; };
-		4B63698E956CBFA71E43AF5E853CC297 /* SlideNavigationContorllerAnimatorSlide.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SlideNavigationContorllerAnimatorSlide.m; path = SlideMenu/Source/Animations/SlideNavigationContorllerAnimatorSlide.m; sourceTree = "<group>"; };
-		5347C7201756140008C1C20D4D5E8FDE /* downArrow@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "downArrow@2x.png"; path = "Pod/Assets/downArrow@2x.png"; sourceTree = "<group>"; };
-		549C82A94D6514614CC939F3A565CED6 /* iOS-Slide-Menu.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "iOS-Slide-Menu.xcconfig"; sourceTree = "<group>"; };
-		565ABF7F11E181762B9D77D8A4F55339 /* UIScrollView+TPKeyboardAvoidingAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIScrollView+TPKeyboardAvoidingAdditions.h"; path = "TPKeyboardAvoiding/UIScrollView+TPKeyboardAvoidingAdditions.h"; sourceTree = "<group>"; };
-		5718723B4F7D36B4C4218FCF443E46AA /* SVProgressHUD.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = SVProgressHUD.bundle; path = SVProgressHUD/SVProgressHUD.bundle; sourceTree = "<group>"; };
-		581D42A8E5CDE6FA418AD2E8270F4807 /* SlideNavigationContorllerAnimatorSlide.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SlideNavigationContorllerAnimatorSlide.h; path = SlideMenu/Source/Animations/SlideNavigationContorllerAnimatorSlide.h; sourceTree = "<group>"; };
-		5D8690C887B141CA2855DAA929CFC986 /* SlideNavigationContorllerAnimatorScale.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SlideNavigationContorllerAnimatorScale.h; path = SlideMenu/Source/Animations/SlideNavigationContorllerAnimatorScale.h; sourceTree = "<group>"; };
-		5F63947DD81A880B65A4DCC75CAE036C /* libTPKeyboardAvoiding.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libTPKeyboardAvoiding.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		62206C4F3FE5EA6DDADE3567804DD941 /* TPKeyboardAvoiding.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TPKeyboardAvoiding.xcconfig; sourceTree = "<group>"; };
-		6318C90AEEBDAD487809AC3434A6E240 /* DownPicker.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DownPicker.m; path = Pod/Classes/DownPicker.m; sourceTree = "<group>"; };
-		748409D3E65B8954B98D6ECE3DA8EA39 /* DownPicker.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = DownPicker.xcconfig; sourceTree = "<group>"; };
-		857074AEFF9E625D8701BB09FFD0A151 /* SlideNavigationContorllerAnimatorScaleAndFade.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SlideNavigationContorllerAnimatorScaleAndFade.h; path = SlideMenu/Source/Animations/SlideNavigationContorllerAnimatorScaleAndFade.h; sourceTree = "<group>"; };
-		8CD7305E57302425BB5C1AA0B4BF9BFB /* libSVProgressHUD.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libSVProgressHUD.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		8DDBCAC99FCECA3057DDBF5F738148E1 /* SVIndefiniteAnimatedView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SVIndefiniteAnimatedView.h; path = SVProgressHUD/SVIndefiniteAnimatedView.h; sourceTree = "<group>"; };
-		8EF08DBD9A9BD339F667B6587088846F /* libDownPicker.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libDownPicker.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		91413329813FA6FE5A78842159E69621 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		91ACBED4A07767F1595A8D1531800CC6 /* TPKeyboardAvoidingScrollView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TPKeyboardAvoidingScrollView.m; path = TPKeyboardAvoiding/TPKeyboardAvoidingScrollView.m; sourceTree = "<group>"; };
-		956ED35C4F3DD3C8BDD550CB93218FBE /* DownPicker.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DownPicker.h; path = Pod/Classes/DownPicker.h; sourceTree = "<group>"; };
-		967AEFDE8918E5DE255224D8B4BC6CA4 /* SVIndefiniteAnimatedView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SVIndefiniteAnimatedView.m; path = SVProgressHUD/SVIndefiniteAnimatedView.m; sourceTree = "<group>"; };
-		9A13CC54FFC994A8239E686BDD39857A /* SlideNavigationContorllerAnimatorScaleAndFade.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SlideNavigationContorllerAnimatorScaleAndFade.m; path = SlideMenu/Source/Animations/SlideNavigationContorllerAnimatorScaleAndFade.m; sourceTree = "<group>"; };
-		9A5995113FA34835402F50DB7C421ED6 /* UIScrollView+TPKeyboardAvoidingAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIScrollView+TPKeyboardAvoidingAdditions.m"; path = "TPKeyboardAvoiding/UIScrollView+TPKeyboardAvoidingAdditions.m"; sourceTree = "<group>"; };
-		9ADE7A07F7995351E9604C2FF60D42D9 /* TPKeyboardAvoidingTableView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TPKeyboardAvoidingTableView.h; path = TPKeyboardAvoiding/TPKeyboardAvoidingTableView.h; sourceTree = "<group>"; };
-		9BF44DB6593D99114399E27B2F019632 /* TPKeyboardAvoiding-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TPKeyboardAvoiding-prefix.pch"; sourceTree = "<group>"; };
-		9EAD33E8BA0210FFB1F3AA6282687095 /* SlideNavigationContorllerAnimatorFade.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SlideNavigationContorllerAnimatorFade.m; path = SlideMenu/Source/Animations/SlideNavigationContorllerAnimatorFade.m; sourceTree = "<group>"; };
-		A5853FDEB27C1738EFEECB43967C66B6 /* SlideNavigationController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SlideNavigationController.h; path = SlideMenu/Source/SlideNavigationController.h; sourceTree = "<group>"; };
-		A5864E77876740CBDDE069C79BC65592 /* SVProgressHUD.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SVProgressHUD.m; path = SVProgressHUD/SVProgressHUD.m; sourceTree = "<group>"; };
-		A68FFE048B9CCB635C9409ECD5DD907D /* SlideNavigationContorllerAnimatorSlideAndFade.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SlideNavigationContorllerAnimatorSlideAndFade.m; path = SlideMenu/Source/Animations/SlideNavigationContorllerAnimatorSlideAndFade.m; sourceTree = "<group>"; };
+		3D0B0117AA08FB972F59BB9CE62DEA4E /* SlideNavigationContorllerAnimatorSlideAndFade.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SlideNavigationContorllerAnimatorSlideAndFade.m; path = SlideMenu/Source/Animations/SlideNavigationContorllerAnimatorSlideAndFade.m; sourceTree = "<group>"; };
+		42A19F1981B52FD304C5491BE66AD364 /* slider-metal-trackBackground.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "slider-metal-trackBackground.png"; path = "NMRangeSlider/MetalTheme/slider-metal-trackBackground.png"; sourceTree = "<group>"; };
+		4551C5B2D6C6C9AA0870FA29EFBA2C9C /* libNMRangeSlider.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libNMRangeSlider.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		49153EE9B910BBECF68330F7D8F6218C /* SVProgressHUD.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SVProgressHUD.h; path = SVProgressHUD/SVProgressHUD.h; sourceTree = "<group>"; };
+		4AE7FD0E16F3FACCFE19068F1E872D9F /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/CoreGraphics.framework; sourceTree = DEVELOPER_DIR; };
+		4C8E5C019B68B7EF9D11DCDE5253AFBA /* TPKeyboardAvoidingScrollView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TPKeyboardAvoidingScrollView.h; path = TPKeyboardAvoiding/TPKeyboardAvoidingScrollView.h; sourceTree = "<group>"; };
+		4ED91CDCB1F5293DC4F9920B7D1A8831 /* DownPicker.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DownPicker.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		510CC5C6F83E4EF3172CAAE3C923DEDB /* SVIndefiniteAnimatedView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SVIndefiniteAnimatedView.m; path = SVProgressHUD/SVIndefiniteAnimatedView.m; sourceTree = "<group>"; };
+		51D2A67889EE931FD7D220765F601B32 /* libPods-3NGAGE.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-3NGAGE.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		543D15FE0CF13A3A9D5176C3767C43E8 /* NMRangeSlider-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NMRangeSlider-dummy.m"; sourceTree = "<group>"; };
+		5589DCBD312311B3CD2C896E9FBCEB70 /* slider-default-track.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "slider-default-track.png"; path = "NMRangeSlider/DefaultTheme/slider-default-track.png"; sourceTree = "<group>"; };
+		5689808F944031B3877A54AC1A8FCF84 /* DownPicker-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DownPicker-prefix.pch"; sourceTree = "<group>"; };
+		599D571967008151D9266F6325F3DDCE /* iOS-Slide-Menu-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "iOS-Slide-Menu-prefix.pch"; sourceTree = "<group>"; };
+		5CCA36A04199F0F7E0341A64C65C4979 /* M13Checkbox.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = M13Checkbox.m; path = Classes/M13Checkbox.m; sourceTree = "<group>"; };
+		61E752CFCD753C37E53A2E64110207CF /* SlideNavigationContorllerAnimatorSlideAndFade.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SlideNavigationContorllerAnimatorSlideAndFade.h; path = SlideMenu/Source/Animations/SlideNavigationContorllerAnimatorSlideAndFade.h; sourceTree = "<group>"; };
+		658FBA18488D3B2E90B8E5C832E2E8AE /* slider-default-track@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "slider-default-track@2x.png"; path = "NMRangeSlider/DefaultTheme/slider-default-track@2x.png"; sourceTree = "<group>"; };
+		65BB193FFABC0526FE079323B3B4DE13 /* slider-default7-trackBackground.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "slider-default7-trackBackground.png"; path = "NMRangeSlider/DefaultTheme7/slider-default7-trackBackground.png"; sourceTree = "<group>"; };
+		677174B5687D740C547A4812F8368C8A /* SlideNavigationContorllerAnimatorScale.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SlideNavigationContorllerAnimatorScale.h; path = SlideMenu/Source/Animations/SlideNavigationContorllerAnimatorScale.h; sourceTree = "<group>"; };
+		68007FA4C9155DAB960534AD5A704814 /* downArrow.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = downArrow.png; path = Pod/Assets/downArrow.png; sourceTree = "<group>"; };
+		6978EA89BA507E8C506432E6F32BB618 /* SlideNavigationContorllerAnimatorFade.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SlideNavigationContorllerAnimatorFade.h; path = SlideMenu/Source/Animations/SlideNavigationContorllerAnimatorFade.h; sourceTree = "<group>"; };
+		6D95AE5B73AAD6E350BF9201CAD89472 /* TPKeyboardAvoidingCollectionView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TPKeyboardAvoidingCollectionView.m; path = TPKeyboardAvoiding/TPKeyboardAvoidingCollectionView.m; sourceTree = "<group>"; };
+		7800B8353A5453E51913CACCBF56DF5B /* M13Checkbox-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "M13Checkbox-prefix.pch"; sourceTree = "<group>"; };
+		79906A54DBA239DCD9C28D28EACF04D9 /* libSVProgressHUD.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libSVProgressHUD.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		7B1EF166E05902CE7695057468C1B903 /* UIDownPicker.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = UIDownPicker.m; path = Pod/Classes/UIDownPicker.m; sourceTree = "<group>"; };
+		811583B7B398140E7C094BF4DF8E78C3 /* downArrow@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "downArrow@2x.png"; path = "Pod/Assets/downArrow@2x.png"; sourceTree = "<group>"; };
+		84BFF146932090FFC1D3ACBA0CE7E295 /* NMRangeSlider.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NMRangeSlider.h; path = NMRangeSlider/NMRangeSlider.h; sourceTree = "<group>"; };
+		887067EA910ECCD141B63423CD213F80 /* M13Checkbox-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "M13Checkbox-dummy.m"; sourceTree = "<group>"; };
+		89914A0AA973700FC2E0EA286780CC86 /* slider-metal-handle.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "slider-metal-handle.png"; path = "NMRangeSlider/MetalTheme/slider-metal-handle.png"; sourceTree = "<group>"; };
+		8BB6EC5495275B87B0098ED347AFE6E2 /* slider-metal-trackBackground@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "slider-metal-trackBackground@2x.png"; path = "NMRangeSlider/MetalTheme/slider-metal-trackBackground@2x.png"; sourceTree = "<group>"; };
+		8DCF4B867A78B632D2F2FAE2F4B17178 /* slider-default7-handle@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "slider-default7-handle@2x.png"; path = "NMRangeSlider/DefaultTheme7/slider-default7-handle@2x.png"; sourceTree = "<group>"; };
+		8F1C122C196276526A07580616D080EA /* SlideNavigationContorllerAnimatorFade.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SlideNavigationContorllerAnimatorFade.m; path = SlideMenu/Source/Animations/SlideNavigationContorllerAnimatorFade.m; sourceTree = "<group>"; };
+		9194784D32FCE392D85FB0ACBAAD5146 /* UIDownPicker.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = UIDownPicker.h; path = Pod/Classes/UIDownPicker.h; sourceTree = "<group>"; };
+		957526CFB235DAF5E18707463B029DD3 /* libTPKeyboardAvoiding.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libTPKeyboardAvoiding.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		9712AC2FD2FAEEB3CE4E4DEE8C1FCD79 /* slider-default-handle-highlighted@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "slider-default-handle-highlighted@2x.png"; path = "NMRangeSlider/DefaultTheme/slider-default-handle-highlighted@2x.png"; sourceTree = "<group>"; };
+		9F0C933C855204EC6977D16D64768397 /* SVProgressHUD.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SVProgressHUD.xcconfig; sourceTree = "<group>"; };
+		9F474B04AB347EB2BED70A4B648EC55E /* slider-default7-handle.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "slider-default7-handle.png"; path = "NMRangeSlider/DefaultTheme7/slider-default7-handle.png"; sourceTree = "<group>"; };
+		A02894EFD8F7E45C5BA7584549522802 /* SlideNavigationContorllerAnimatorSlide.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SlideNavigationContorllerAnimatorSlide.h; path = SlideMenu/Source/Animations/SlideNavigationContorllerAnimatorSlide.h; sourceTree = "<group>"; };
+		A19E6BF8325C7B1F4DDA64D9FE21B6BC /* menu-button.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "menu-button.png"; path = "SlideMenu/Source/Assets/menu-button.png"; sourceTree = "<group>"; };
+		A303A22E57EC0FB5AA59AACEA3DF351A /* TPKeyboardAvoidingTableView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TPKeyboardAvoidingTableView.m; path = TPKeyboardAvoiding/TPKeyboardAvoidingTableView.m; sourceTree = "<group>"; };
 		A7D1669587F012CF71499480C4745556 /* Pods-3NGAGE-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-3NGAGE-acknowledgements.plist"; sourceTree = "<group>"; };
-		B7E782A42E46AB19AB282B33F648D47E /* SVProgressHUD.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SVProgressHUD.xcconfig; sourceTree = "<group>"; };
+		AB225CD8DCE34C386EF65E77C0A5E31D /* iOS-Slide-Menu-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "iOS-Slide-Menu-dummy.m"; sourceTree = "<group>"; };
+		AD174A9FB5B45D3625DC26CA32143BD7 /* DownPicker-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "DownPicker-dummy.m"; sourceTree = "<group>"; };
+		B410251C803CEFC70F9EDA91840A883E /* slider-metal-track.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "slider-metal-track.png"; path = "NMRangeSlider/MetalTheme/slider-metal-track.png"; sourceTree = "<group>"; };
+		B53A8A1C56F3564D913E52C57BD57DC8 /* DownPicker.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DownPicker.h; path = Pod/Classes/DownPicker.h; sourceTree = "<group>"; };
+		B649815F5AEA1A2E1EB5F6B7E4C81FFA /* SlideNavigationController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SlideNavigationController.m; path = SlideMenu/Source/SlideNavigationController.m; sourceTree = "<group>"; };
+		B789BC8919F5CC0DD131CF6487B40AC9 /* slider-default_trackBackground@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "slider-default_trackBackground@2x.png"; path = "NMRangeSlider/DefaultTheme/slider-default_trackBackground@2x.png"; sourceTree = "<group>"; };
+		BA1BD78B1E861334FF9B0EAEA7FBEDF9 /* slider-default7-trackCrossedOver.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "slider-default7-trackCrossedOver.png"; path = "NMRangeSlider/DefaultTheme7/slider-default7-trackCrossedOver.png"; sourceTree = "<group>"; };
+		BA3AE5CB2551298B29EE46504529B158 /* slider-default-handle@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "slider-default-handle@2x.png"; path = "NMRangeSlider/DefaultTheme/slider-default-handle@2x.png"; sourceTree = "<group>"; };
 		BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		BB1C8D18A5F3ADBE83E3AE18C0E47609 /* downArrow@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "downArrow@3x.png"; path = "Pod/Assets/downArrow@3x.png"; sourceTree = "<group>"; };
+		BBB9C14DA2D92138C6EF5B209A5BE353 /* SlideNavigationContorllerAnimatorScaleAndFade.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SlideNavigationContorllerAnimatorScaleAndFade.m; path = SlideMenu/Source/Animations/SlideNavigationContorllerAnimatorScaleAndFade.m; sourceTree = "<group>"; };
+		BBE23734D19F2DDB81434240676CDB7B /* TPKeyboardAvoidingScrollView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TPKeyboardAvoidingScrollView.m; path = TPKeyboardAvoiding/TPKeyboardAvoidingScrollView.m; sourceTree = "<group>"; };
+		BE1674DC7586B3734A615BDE3B213044 /* UIScrollView+TPKeyboardAvoidingAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIScrollView+TPKeyboardAvoidingAdditions.h"; path = "TPKeyboardAvoiding/UIScrollView+TPKeyboardAvoidingAdditions.h"; sourceTree = "<group>"; };
+		BE8404F9A09DFA9A93600C447301201A /* UIScrollView+TPKeyboardAvoidingAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIScrollView+TPKeyboardAvoidingAdditions.m"; path = "TPKeyboardAvoiding/UIScrollView+TPKeyboardAvoidingAdditions.m"; sourceTree = "<group>"; };
+		BEF161670897FB955942B60955552801 /* NMRangeSlider.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = NMRangeSlider.xcconfig; sourceTree = "<group>"; };
 		BF1233C3BBDC8D78CD0392E274A8EF0E /* Pods-3NGAGE-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-3NGAGE-frameworks.sh"; sourceTree = "<group>"; };
-		C259CD81C0ECCB0AFF3117F048E17303 /* SlideNavigationController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SlideNavigationController.m; path = SlideMenu/Source/SlideNavigationController.m; sourceTree = "<group>"; };
-		D1DC3B8A26C9265EC34818DC296D2F04 /* menu-button.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "menu-button.png"; path = "SlideMenu/Source/Assets/menu-button.png"; sourceTree = "<group>"; };
-		D489359450CBFFB56143E0A16C53E879 /* TPKeyboardAvoidingCollectionView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TPKeyboardAvoidingCollectionView.m; path = TPKeyboardAvoiding/TPKeyboardAvoidingCollectionView.m; sourceTree = "<group>"; };
-		D5B678360EBC5A162C4F7FC62BD2B969 /* SlideNavigationContorllerAnimatorScale.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SlideNavigationContorllerAnimatorScale.m; path = SlideMenu/Source/Animations/SlideNavigationContorllerAnimatorScale.m; sourceTree = "<group>"; };
-		D5F76EB2A5C33529990C65EDF3F53850 /* TPKeyboardAvoiding-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "TPKeyboardAvoiding-dummy.m"; sourceTree = "<group>"; };
-		D9DE615671731BF3AEFB3CB1F984FA8F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
-		DAC10D2E084EA55B7F4CE40A25F4437E /* iOS-Slide-Menu-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "iOS-Slide-Menu-prefix.pch"; sourceTree = "<group>"; };
-		DE74837C29F6AE1E39D4CDB3106B4C38 /* iOS-Slide-Menu-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "iOS-Slide-Menu-dummy.m"; sourceTree = "<group>"; };
-		E4CC0E16852DB0260C5202A149CE3BC2 /* SVProgressHUD-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SVProgressHUD-dummy.m"; sourceTree = "<group>"; };
-		E642B1A057ADA2ABEF90BE2417F349C1 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
-		EED3F6924215FB01D2EADA87DB5A967E /* UIDownPicker.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = UIDownPicker.h; path = Pod/Classes/UIDownPicker.h; sourceTree = "<group>"; };
+		C0BED266041BC377445F2CC5BEF929F6 /* libDownPicker.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libDownPicker.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		C4CACAFAAC6BA9F8C326380A4F51F46D /* slider-metal-track@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "slider-metal-track@2x.png"; path = "NMRangeSlider/MetalTheme/slider-metal-track@2x.png"; sourceTree = "<group>"; };
+		C755BAE1AC7F985E308DB052848E6EA0 /* slider-default-trackBackground.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "slider-default-trackBackground.png"; path = "NMRangeSlider/DefaultTheme/slider-default-trackBackground.png"; sourceTree = "<group>"; };
+		C760697AFC2058104336F1908C92FBC7 /* slider-metal-handle-highlighted.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "slider-metal-handle-highlighted.png"; path = "NMRangeSlider/MetalTheme/slider-metal-handle-highlighted.png"; sourceTree = "<group>"; };
+		C8EC1405211424CC2C91D149BA22ACCE /* SlideNavigationContorllerAnimatorSlide.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SlideNavigationContorllerAnimatorSlide.m; path = SlideMenu/Source/Animations/SlideNavigationContorllerAnimatorSlide.m; sourceTree = "<group>"; };
+		C9DA24E4EB08D1A260AF9528558298F8 /* NMRangeSlider-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NMRangeSlider-prefix.pch"; sourceTree = "<group>"; };
+		CABDD5F50271B2558275D8A455689700 /* slider-default-trackCrossedOver.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "slider-default-trackCrossedOver.png"; path = "NMRangeSlider/DefaultTheme/slider-default-trackCrossedOver.png"; sourceTree = "<group>"; };
+		CE437620300D81EED04DF8C0301AF9D9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		D1C0D9D03EC7E1F1F3975F93ED58D3D1 /* menu-button@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "menu-button@2x.png"; path = "SlideMenu/Source/Assets/menu-button@2x.png"; sourceTree = "<group>"; };
+		D2E6D6AE36D4B6282508396EDFB8259C /* slider-metal-handle-highlighted@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "slider-metal-handle-highlighted@2x.png"; path = "NMRangeSlider/MetalTheme/slider-metal-handle-highlighted@2x.png"; sourceTree = "<group>"; };
+		E20A4F809BE2FDA803829864017F389F /* SVIndefiniteAnimatedView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SVIndefiniteAnimatedView.h; path = SVProgressHUD/SVIndefiniteAnimatedView.h; sourceTree = "<group>"; };
+		E2F6E94C8B12E845C2F2D6A16796BFA7 /* libM13Checkbox.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libM13Checkbox.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		E5C3F8004E9F2FFB653EC410FA579383 /* M13Checkbox.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = M13Checkbox.xcconfig; sourceTree = "<group>"; };
+		E70789C32D3B46EFBE7962E8594F0F3C /* TPKeyboardAvoiding.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TPKeyboardAvoiding.xcconfig; sourceTree = "<group>"; };
+		EA94B3A5DE1F7008A99B5B5E13BC5CF8 /* SVProgressHUD-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SVProgressHUD-prefix.pch"; sourceTree = "<group>"; };
+		EB771C42DE1B12856350D54550BC9C8B /* SVProgressHUD.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = SVProgressHUD.bundle; path = SVProgressHUD/SVProgressHUD.bundle; sourceTree = "<group>"; };
+		EBF023E0C252513222F5F6957303857B /* DownPicker.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DownPicker.m; path = Pod/Classes/DownPicker.m; sourceTree = "<group>"; };
+		EC63107F35A3842149166A2C2303C3E6 /* M13Checkbox.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = M13Checkbox.h; path = Classes/M13Checkbox.h; sourceTree = "<group>"; };
+		ED04AE2201316F6590E7AD9952706C7B /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
 		EFFA860F38BC8B1A68C46E0378FCADE1 /* Pods-3NGAGE-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-3NGAGE-acknowledgements.markdown"; sourceTree = "<group>"; };
-		F7F3607AD06A820FAAA871D8239A8ABE /* DownPicker-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DownPicker-prefix.pch"; sourceTree = "<group>"; };
-		F84DE010EDE857CA29BA07DBFABEA9DC /* downArrow.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = downArrow.png; path = Pod/Assets/downArrow.png; sourceTree = "<group>"; };
+		F82A4AD668E1003B6E140DB9B2A69327 /* libiOS-Slide-Menu.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libiOS-Slide-Menu.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F9544CECB1CC219194080CF781AAAB49 /* Pods-3NGAGE.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-3NGAGE.debug.xcconfig"; sourceTree = "<group>"; };
-		F9F5F95B34EE307432758FA32AEAB3F1 /* SlideNavigationContorllerAnimator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SlideNavigationContorllerAnimator.h; path = SlideMenu/Source/Animations/SlideNavigationContorllerAnimator.h; sourceTree = "<group>"; };
-		FAABE91EFFFC85C76F6EAA5BA9489AE9 /* downArrow@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "downArrow@3x.png"; path = "Pod/Assets/downArrow@3x.png"; sourceTree = "<group>"; };
+		FEAD5622ABCEE80D733E7740CDAF3385 /* TPKeyboardAvoidingCollectionView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TPKeyboardAvoidingCollectionView.h; path = TPKeyboardAvoiding/TPKeyboardAvoidingCollectionView.h; sourceTree = "<group>"; };
+		FF642D904A24BFBA5C8D72EC32E560D3 /* SlideNavigationContorllerAnimator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SlideNavigationContorllerAnimator.h; path = SlideMenu/Source/Animations/SlideNavigationContorllerAnimator.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		1EEE8B81846C4C06E336E6A8284E422A /* Frameworks */ = {
+		077E3A81F5334A762F1DBEEA1047F02C /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5E41B67B1EE54A182D313C864EB3FA49 /* Foundation.framework in Frameworks */,
-				BF33D655E49AE4C622F129FBB762F17A /* QuartzCore.framework in Frameworks */,
+				4C9C6F0AD5CE3261CAD5138AE64E1773 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		5A2809ABFEE03E304934457197B96FB8 /* Frameworks */ = {
+		1370C41F9046DB11051333153F8AD917 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4632CE2FAA5115F95BCB2CD4006B7E7C /* Foundation.framework in Frameworks */,
+				17AB07D8D270B6E76FB5A5950A28A559 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -186,11 +248,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		92C1DEA22796A5D1BFC2FDD3DCF5A8AC /* Frameworks */ = {
+		960E642883E2080B0C4009264C6A468A /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F48DE7505D36FA6A3CAB55313762B5B0 /* Foundation.framework in Frameworks */,
+				9D11098D8BE47C57A465D8DF515DE3A5 /* CoreGraphics.framework in Frameworks */,
+				4B7857037C1430D79EF0650BFA37BBB2 /* Foundation.framework in Frameworks */,
+				4DC108C1368AFC6A30AD2EDC2CABE84A /* UIKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -209,82 +273,106 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		B56C23EFE9AABF5C9788E84411039934 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				80C5B2176A6A5BE51FF6D2108983F6F4 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F80003F2A333279D5E43FDB21EA83C75 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EBA2F3D2D0F585F9153AF0A6BEC61909 /* Foundation.framework in Frameworks */,
+				813F1EA331BA6DC6B1AE1E2B9D8198C4 /* QuartzCore.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		122DA2E5084A4393C29BE363C764795C /* Frameworks */ = {
+		060A6584E8917702CA521AD9F4B8A318 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				DA23025FEDA7F7FE2AACB2532BD80D14 /* iOS */,
+				2F017E94C0903C5360184D27D6CC8182 /* iOS-Slide-Menu.xcconfig */,
+				AB225CD8DCE34C386EF65E77C0A5E31D /* iOS-Slide-Menu-dummy.m */,
+				599D571967008151D9266F6325F3DDCE /* iOS-Slide-Menu-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/iOS-Slide-Menu";
+			sourceTree = "<group>";
+		};
+		072DC9FCED31EE531047700839F05CA0 /* QuickBlox */ = {
+			isa = PBXGroup;
+			children = (
+				08DDF7A19D80D1C9A9776FD41A032BC4 /* Frameworks */,
+			);
+			path = QuickBlox;
+			sourceTree = "<group>";
+		};
+		08DDF7A19D80D1C9A9776FD41A032BC4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				39849E572130568782241C82E4AEEEA3 /* Quickblox.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		12FEC981B76E87D98F361246971964FC /* TPKeyboardAvoiding */ = {
+		1264ED5816D0746D44E0EFFE4DF90ECA /* M13Checkbox */ = {
 			isa = PBXGroup;
 			children = (
-				46D2120FDF48B75CED2A5BF050CD3DE6 /* TPKeyboardAvoidingCollectionView.h */,
-				D489359450CBFFB56143E0A16C53E879 /* TPKeyboardAvoidingCollectionView.m */,
-				41EFD995820080623CDF54E35EC43D5D /* TPKeyboardAvoidingScrollView.h */,
-				91ACBED4A07767F1595A8D1531800CC6 /* TPKeyboardAvoidingScrollView.m */,
-				9ADE7A07F7995351E9604C2FF60D42D9 /* TPKeyboardAvoidingTableView.h */,
-				2487D6CB9393425B5719714CEE21B2A7 /* TPKeyboardAvoidingTableView.m */,
-				565ABF7F11E181762B9D77D8A4F55339 /* UIScrollView+TPKeyboardAvoidingAdditions.h */,
-				9A5995113FA34835402F50DB7C421ED6 /* UIScrollView+TPKeyboardAvoidingAdditions.m */,
-				967F4265FA4F1193E0DC422B2B5B833F /* Support Files */,
+				EC63107F35A3842149166A2C2303C3E6 /* M13Checkbox.h */,
+				5CCA36A04199F0F7E0341A64C65C4979 /* M13Checkbox.m */,
+				F8B52F32858D0B926C50EAC50D5CB3F2 /* Support Files */,
 			);
-			path = TPKeyboardAvoiding;
+			path = M13Checkbox;
 			sourceTree = "<group>";
 		};
-		26889A5A033F0BCF0173EA373825E441 /* Resources */ = {
+		14B8B9B15ECBE87983FF987239AB2D7B /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				5718723B4F7D36B4C4218FCF443E46AA /* SVProgressHUD.bundle */,
+				A9203A0FF197B8764CD853B6EE3A159E /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		241795255C785B86BCA62FA5147C3E0D /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				9F0C933C855204EC6977D16D64768397 /* SVProgressHUD.xcconfig */,
+				112446A2AE4277D00626DE52982D0B97 /* SVProgressHUD-dummy.m */,
+				EA94B3A5DE1F7008A99B5B5E13BC5CF8 /* SVProgressHUD-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SVProgressHUD";
+			sourceTree = "<group>";
+		};
+		26D97FD589BD928296C6D556121F3C43 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				68007FA4C9155DAB960534AD5A704814 /* downArrow.png */,
+				811583B7B398140E7C094BF4DF8E78C3 /* downArrow@2x.png */,
+				BB1C8D18A5F3ADBE83E3AE18C0E47609 /* downArrow@3x.png */,
 			);
 			name = Resources;
 			sourceTree = "<group>";
 		};
-		2B611098FA4A8E89E49B2FEDF6285679 /* iOS-Slide-Menu */ = {
+		323BAE03E07264B0AF10ED30412AB338 /* TPKeyboardAvoiding */ = {
 			isa = PBXGroup;
 			children = (
-				F9F5F95B34EE307432758FA32AEAB3F1 /* SlideNavigationContorllerAnimator.h */,
-				04B62A2134CF57FF928A591D067DC798 /* SlideNavigationContorllerAnimatorFade.h */,
-				9EAD33E8BA0210FFB1F3AA6282687095 /* SlideNavigationContorllerAnimatorFade.m */,
-				5D8690C887B141CA2855DAA929CFC986 /* SlideNavigationContorllerAnimatorScale.h */,
-				D5B678360EBC5A162C4F7FC62BD2B969 /* SlideNavigationContorllerAnimatorScale.m */,
-				857074AEFF9E625D8701BB09FFD0A151 /* SlideNavigationContorllerAnimatorScaleAndFade.h */,
-				9A13CC54FFC994A8239E686BDD39857A /* SlideNavigationContorllerAnimatorScaleAndFade.m */,
-				581D42A8E5CDE6FA418AD2E8270F4807 /* SlideNavigationContorllerAnimatorSlide.h */,
-				4B63698E956CBFA71E43AF5E853CC297 /* SlideNavigationContorllerAnimatorSlide.m */,
-				0708C765928CC8DF22935380D3B348B0 /* SlideNavigationContorllerAnimatorSlideAndFade.h */,
-				A68FFE048B9CCB635C9409ECD5DD907D /* SlideNavigationContorllerAnimatorSlideAndFade.m */,
-				A5853FDEB27C1738EFEECB43967C66B6 /* SlideNavigationController.h */,
-				C259CD81C0ECCB0AFF3117F048E17303 /* SlideNavigationController.m */,
-				454BDD68D61C5D422BF0AF8B9AA63C2A /* Resources */,
-				CC88057126CE9FEB66B61491A6E64C77 /* Support Files */,
+				FEAD5622ABCEE80D733E7740CDAF3385 /* TPKeyboardAvoidingCollectionView.h */,
+				6D95AE5B73AAD6E350BF9201CAD89472 /* TPKeyboardAvoidingCollectionView.m */,
+				4C8E5C019B68B7EF9D11DCDE5253AFBA /* TPKeyboardAvoidingScrollView.h */,
+				BBE23734D19F2DDB81434240676CDB7B /* TPKeyboardAvoidingScrollView.m */,
+				00A9755ED40E2165EFFAD95402CAB165 /* TPKeyboardAvoidingTableView.h */,
+				A303A22E57EC0FB5AA59AACEA3DF351A /* TPKeyboardAvoidingTableView.m */,
+				BE1674DC7586B3734A615BDE3B213044 /* UIScrollView+TPKeyboardAvoidingAdditions.h */,
+				BE8404F9A09DFA9A93600C447301201A /* UIScrollView+TPKeyboardAvoidingAdditions.m */,
+				9BB9212D13AB4439D232DC0772F3EBC5 /* Support Files */,
 			);
-			path = "iOS-Slide-Menu";
-			sourceTree = "<group>";
-		};
-		2BEE701640EA7DC02B7DD38C45619884 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				00BE2F7C2057E38572C839EB45E4D368 /* Quickblox.framework */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		2DD7E4F34F6642936EC18971C81D1E6B /* DownPicker */ = {
-			isa = PBXGroup;
-			children = (
-				956ED35C4F3DD3C8BDD550CB93218FBE /* DownPicker.h */,
-				6318C90AEEBDAD487809AC3434A6E240 /* DownPicker.m */,
-				EED3F6924215FB01D2EADA87DB5A967E /* UIDownPicker.h */,
-				3CFA61C4BE2841039C22614ED5CFF65B /* UIDownPicker.m */,
-				6481C744B7FD93AA19B0990F97900711 /* Resources */,
-				B4DEE05CCF9B44F6C63625717FF54533 /* Support Files */,
-			);
-			path = DownPicker;
+			path = TPKeyboardAvoiding;
 			sourceTree = "<group>";
 		};
 		44ECCB1E979F2947680002E7BD8C3BFA /* Targets Support Files */ = {
@@ -295,102 +383,121 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		454BDD68D61C5D422BF0AF8B9AA63C2A /* Resources */ = {
+		5AD95E568BBF614A33A1D1E2EC03CA3C /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				D1DC3B8A26C9265EC34818DC296D2F04 /* menu-button.png */,
-				44AA1D5A2D72149CF0DAFB97C8BF6A99 /* menu-button@2x.png */,
+				06AD6C48E7750A6B7298F4855F37C633 /* slider-default-handle.png */,
+				3B59D18B55025E3059A5509739F4C1BB /* slider-default-handle-highlighted.png */,
+				9712AC2FD2FAEEB3CE4E4DEE8C1FCD79 /* slider-default-handle-highlighted@2x.png */,
+				BA3AE5CB2551298B29EE46504529B158 /* slider-default-handle@2x.png */,
+				5589DCBD312311B3CD2C896E9FBCEB70 /* slider-default-track.png */,
+				658FBA18488D3B2E90B8E5C832E2E8AE /* slider-default-track@2x.png */,
+				C755BAE1AC7F985E308DB052848E6EA0 /* slider-default-trackBackground.png */,
+				CABDD5F50271B2558275D8A455689700 /* slider-default-trackCrossedOver.png */,
+				13E9E4B95D3B3F558098D1008303CD1D /* slider-default-trackCrossedOver@2x.png */,
+				9F474B04AB347EB2BED70A4B648EC55E /* slider-default7-handle.png */,
+				8DCF4B867A78B632D2F2FAE2F4B17178 /* slider-default7-handle@2x.png */,
+				39AA1A8AEA4B98E07EFF4FD9CCD12550 /* slider-default7-track.png */,
+				06427E4FCE2CA72B3CC14E4C224F825E /* slider-default7-track@2x.png */,
+				65BB193FFABC0526FE079323B3B4DE13 /* slider-default7-trackBackground.png */,
+				097971B51E387E32A7F5539C406E2B7E /* slider-default7-trackBackground@2x.png */,
+				BA1BD78B1E861334FF9B0EAEA7FBEDF9 /* slider-default7-trackCrossedOver.png */,
+				0A75419A24E5C0EACAE57BD007449320 /* slider-default7-trackCrossedOver@2x.png */,
+				B789BC8919F5CC0DD131CF6487B40AC9 /* slider-default_trackBackground@2x.png */,
+				89914A0AA973700FC2E0EA286780CC86 /* slider-metal-handle.png */,
+				C760697AFC2058104336F1908C92FBC7 /* slider-metal-handle-highlighted.png */,
+				D2E6D6AE36D4B6282508396EDFB8259C /* slider-metal-handle-highlighted@2x.png */,
+				1E86C81B07F7772988A9FF4EAF831298 /* slider-metal-handle@2x.png */,
+				B410251C803CEFC70F9EDA91840A883E /* slider-metal-track.png */,
+				C4CACAFAAC6BA9F8C326380A4F51F46D /* slider-metal-track@2x.png */,
+				42A19F1981B52FD304C5491BE66AD364 /* slider-metal-trackBackground.png */,
+				8BB6EC5495275B87B0098ED347AFE6E2 /* slider-metal-trackBackground@2x.png */,
 			);
 			name = Resources;
 			sourceTree = "<group>";
 		};
-		6481C744B7FD93AA19B0990F97900711 /* Resources */ = {
+		761F1B7044857684A841CAAAF087EC9B /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				F84DE010EDE857CA29BA07DBFABEA9DC /* downArrow.png */,
-				5347C7201756140008C1C20D4D5E8FDE /* downArrow@2x.png */,
-				FAABE91EFFFC85C76F6EAA5BA9489AE9 /* downArrow@3x.png */,
-			);
-			name = Resources;
-			sourceTree = "<group>";
-		};
-		6C2035C880FFEDC4451F4C75BCE1BDBD /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				2DD7E4F34F6642936EC18971C81D1E6B /* DownPicker */,
-				2B611098FA4A8E89E49B2FEDF6285679 /* iOS-Slide-Menu */,
-				7B3FF207652F17D9D7A7C129B9F541A5 /* QuickBlox */,
-				711B24BCDE22BE41ED9C85C31777A07A /* SVProgressHUD */,
-				12FEC981B76E87D98F361246971964FC /* TPKeyboardAvoiding */,
-			);
-			name = Pods;
-			sourceTree = "<group>";
-		};
-		6E9CF69B7745CB1DC633E752CEB2CA96 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				37E54C5EB8327FF8E2FE0A3EF8869C70 /* DownPicker.bundle */,
-				8EF08DBD9A9BD339F667B6587088846F /* libDownPicker.a */,
-				2ABC43508B8F6B4B96AD74517914955F /* libiOS-Slide-Menu.a */,
-				38B31DBF48E13DE8BF02F0E550655B9F /* libPods-3NGAGE.a */,
-				8CD7305E57302425BB5C1AA0B4BF9BFB /* libSVProgressHUD.a */,
-				5F63947DD81A880B65A4DCC75CAE036C /* libTPKeyboardAvoiding.a */,
+				4ED91CDCB1F5293DC4F9920B7D1A8831 /* DownPicker.bundle */,
+				C0BED266041BC377445F2CC5BEF929F6 /* libDownPicker.a */,
+				F82A4AD668E1003B6E140DB9B2A69327 /* libiOS-Slide-Menu.a */,
+				E2F6E94C8B12E845C2F2D6A16796BFA7 /* libM13Checkbox.a */,
+				4551C5B2D6C6C9AA0870FA29EFBA2C9C /* libNMRangeSlider.a */,
+				51D2A67889EE931FD7D220765F601B32 /* libPods-3NGAGE.a */,
+				79906A54DBA239DCD9C28D28EACF04D9 /* libSVProgressHUD.a */,
+				957526CFB235DAF5E18707463B029DD3 /* libTPKeyboardAvoiding.a */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		703C87E8872C4B260D7F83017682EE16 /* Support Files */ = {
+		7A75A053A7DABB0E86B63A64F317CDD2 /* iOS-Slide-Menu */ = {
 			isa = PBXGroup;
 			children = (
-				B7E782A42E46AB19AB282B33F648D47E /* SVProgressHUD.xcconfig */,
-				E4CC0E16852DB0260C5202A149CE3BC2 /* SVProgressHUD-dummy.m */,
-				282FB6701B3FFF9A9D55B5A81A479243 /* SVProgressHUD-prefix.pch */,
+				FF642D904A24BFBA5C8D72EC32E560D3 /* SlideNavigationContorllerAnimator.h */,
+				6978EA89BA507E8C506432E6F32BB618 /* SlideNavigationContorllerAnimatorFade.h */,
+				8F1C122C196276526A07580616D080EA /* SlideNavigationContorllerAnimatorFade.m */,
+				677174B5687D740C547A4812F8368C8A /* SlideNavigationContorllerAnimatorScale.h */,
+				2AE5A73654C8CC7B4FAA1ECFDEB85FC6 /* SlideNavigationContorllerAnimatorScale.m */,
+				17055F597AA3291C5854642611AEA45F /* SlideNavigationContorllerAnimatorScaleAndFade.h */,
+				BBB9C14DA2D92138C6EF5B209A5BE353 /* SlideNavigationContorllerAnimatorScaleAndFade.m */,
+				A02894EFD8F7E45C5BA7584549522802 /* SlideNavigationContorllerAnimatorSlide.h */,
+				C8EC1405211424CC2C91D149BA22ACCE /* SlideNavigationContorllerAnimatorSlide.m */,
+				61E752CFCD753C37E53A2E64110207CF /* SlideNavigationContorllerAnimatorSlideAndFade.h */,
+				3D0B0117AA08FB972F59BB9CE62DEA4E /* SlideNavigationContorllerAnimatorSlideAndFade.m */,
+				032DFC6BED8E0F239570773A2184C574 /* SlideNavigationController.h */,
+				B649815F5AEA1A2E1EB5F6B7E4C81FFA /* SlideNavigationController.m */,
+				E90802436E204FA2C91DE5B86BFE7B5C /* Resources */,
+				060A6584E8917702CA521AD9F4B8A318 /* Support Files */,
 			);
-			name = "Support Files";
-			path = "../Target Support Files/SVProgressHUD";
+			path = "iOS-Slide-Menu";
 			sourceTree = "<group>";
 		};
-		711B24BCDE22BE41ED9C85C31777A07A /* SVProgressHUD */ = {
+		7B6C1CA0D71CF3B0303D9651F89B6183 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				8DDBCAC99FCECA3057DDBF5F738148E1 /* SVIndefiniteAnimatedView.h */,
-				967AEFDE8918E5DE255224D8B4BC6CA4 /* SVIndefiniteAnimatedView.m */,
-				139FB91D47A5FEF6AE3B073CFD1C8E74 /* SVProgressHUD.h */,
-				A5864E77876740CBDDE069C79BC65592 /* SVProgressHUD.m */,
-				26889A5A033F0BCF0173EA373825E441 /* Resources */,
-				703C87E8872C4B260D7F83017682EE16 /* Support Files */,
+				F37F7845BEA4486B0A734807FD15D05B /* DownPicker */,
+				7A75A053A7DABB0E86B63A64F317CDD2 /* iOS-Slide-Menu */,
+				1264ED5816D0746D44E0EFFE4DF90ECA /* M13Checkbox */,
+				DE4D38BB5B17B6CF0C1C2E92C2D3AD96 /* NMRangeSlider */,
+				072DC9FCED31EE531047700839F05CA0 /* QuickBlox */,
+				F591A3F576C3B55D6CB83B9440C8F058 /* SVProgressHUD */,
+				323BAE03E07264B0AF10ED30412AB338 /* TPKeyboardAvoiding */,
 			);
-			path = SVProgressHUD;
-			sourceTree = "<group>";
-		};
-		7B3FF207652F17D9D7A7C129B9F541A5 /* QuickBlox */ = {
-			isa = PBXGroup;
-			children = (
-				2BEE701640EA7DC02B7DD38C45619884 /* Frameworks */,
-			);
-			path = QuickBlox;
+			name = Pods;
 			sourceTree = "<group>";
 		};
 		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
 				BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */,
-				122DA2E5084A4393C29BE363C764795C /* Frameworks */,
-				6C2035C880FFEDC4451F4C75BCE1BDBD /* Pods */,
-				6E9CF69B7745CB1DC633E752CEB2CA96 /* Products */,
+				14B8B9B15ECBE87983FF987239AB2D7B /* Frameworks */,
+				7B6C1CA0D71CF3B0303D9651F89B6183 /* Pods */,
+				761F1B7044857684A841CAAAF087EC9B /* Products */,
 				44ECCB1E979F2947680002E7BD8C3BFA /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		967F4265FA4F1193E0DC422B2B5B833F /* Support Files */ = {
+		7F5BB1EA04F27470889099DA101E5CAE /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				62206C4F3FE5EA6DDADE3567804DD941 /* TPKeyboardAvoiding.xcconfig */,
-				D5F76EB2A5C33529990C65EDF3F53850 /* TPKeyboardAvoiding-dummy.m */,
-				9BF44DB6593D99114399E27B2F019632 /* TPKeyboardAvoiding-prefix.pch */,
+				BEF161670897FB955942B60955552801 /* NMRangeSlider.xcconfig */,
+				543D15FE0CF13A3A9D5176C3767C43E8 /* NMRangeSlider-dummy.m */,
+				C9DA24E4EB08D1A260AF9528558298F8 /* NMRangeSlider-prefix.pch */,
 			);
 			name = "Support Files";
-			path = "../Target Support Files/TPKeyboardAvoiding";
+			path = "../Target Support Files/NMRangeSlider";
+			sourceTree = "<group>";
+		};
+		899072A9FC8B61FA6AE89E69E2E91BBF /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				23671F9211ED446CAF8DC0F82415592A /* DownPicker.xcconfig */,
+				AD174A9FB5B45D3625DC26CA32143BD7 /* DownPicker-dummy.m */,
+				5689808F944031B3877A54AC1A8FCF84 /* DownPicker-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/DownPicker";
 			sourceTree = "<group>";
 		};
 		9770EB08406898C0C434ADA9EF161A77 /* Pods-3NGAGE */ = {
@@ -408,56 +515,111 @@
 			path = "Target Support Files/Pods-3NGAGE";
 			sourceTree = "<group>";
 		};
-		B4DEE05CCF9B44F6C63625717FF54533 /* Support Files */ = {
+		9BB9212D13AB4439D232DC0772F3EBC5 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				748409D3E65B8954B98D6ECE3DA8EA39 /* DownPicker.xcconfig */,
-				03807C357D16CB8D2749CAB8CACAEDC1 /* DownPicker-dummy.m */,
-				F7F3607AD06A820FAAA871D8239A8ABE /* DownPicker-prefix.pch */,
+				E70789C32D3B46EFBE7962E8594F0F3C /* TPKeyboardAvoiding.xcconfig */,
+				16DBAF256C0A67BAF13B1FF6E3027A87 /* TPKeyboardAvoiding-dummy.m */,
+				042194894046260418A83CEC194BB66F /* TPKeyboardAvoiding-prefix.pch */,
 			);
 			name = "Support Files";
-			path = "../Target Support Files/DownPicker";
+			path = "../Target Support Files/TPKeyboardAvoiding";
 			sourceTree = "<group>";
 		};
-		CC88057126CE9FEB66B61491A6E64C77 /* Support Files */ = {
+		A9203A0FF197B8764CD853B6EE3A159E /* iOS */ = {
 			isa = PBXGroup;
 			children = (
-				549C82A94D6514614CC939F3A565CED6 /* iOS-Slide-Menu.xcconfig */,
-				DE74837C29F6AE1E39D4CDB3106B4C38 /* iOS-Slide-Menu-dummy.m */,
-				DAC10D2E084EA55B7F4CE40A25F4437E /* iOS-Slide-Menu-prefix.pch */,
-			);
-			name = "Support Files";
-			path = "../Target Support Files/iOS-Slide-Menu";
-			sourceTree = "<group>";
-		};
-		DA23025FEDA7F7FE2AACB2532BD80D14 /* iOS */ = {
-			isa = PBXGroup;
-			children = (
-				91413329813FA6FE5A78842159E69621 /* Foundation.framework */,
-				E642B1A057ADA2ABEF90BE2417F349C1 /* QuartzCore.framework */,
-				D9DE615671731BF3AEFB3CB1F984FA8F /* UIKit.framework */,
+				4AE7FD0E16F3FACCFE19068F1E872D9F /* CoreGraphics.framework */,
+				CE437620300D81EED04DF8C0301AF9D9 /* Foundation.framework */,
+				0DD25CA4A497622D5ABF4C433D79E4DE /* QuartzCore.framework */,
+				ED04AE2201316F6590E7AD9952706C7B /* UIKit.framework */,
 			);
 			name = iOS;
+			sourceTree = "<group>";
+		};
+		AF792B22687E418EFD0F409180983EDE /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				EB771C42DE1B12856350D54550BC9C8B /* SVProgressHUD.bundle */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		DE4D38BB5B17B6CF0C1C2E92C2D3AD96 /* NMRangeSlider */ = {
+			isa = PBXGroup;
+			children = (
+				84BFF146932090FFC1D3ACBA0CE7E295 /* NMRangeSlider.h */,
+				158D0E6110C9ED0A02C5C464D8F693C5 /* NMRangeSlider.m */,
+				5AD95E568BBF614A33A1D1E2EC03CA3C /* Resources */,
+				7F5BB1EA04F27470889099DA101E5CAE /* Support Files */,
+			);
+			path = NMRangeSlider;
+			sourceTree = "<group>";
+		};
+		E90802436E204FA2C91DE5B86BFE7B5C /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				A19E6BF8325C7B1F4DDA64D9FE21B6BC /* menu-button.png */,
+				D1C0D9D03EC7E1F1F3975F93ED58D3D1 /* menu-button@2x.png */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		F37F7845BEA4486B0A734807FD15D05B /* DownPicker */ = {
+			isa = PBXGroup;
+			children = (
+				B53A8A1C56F3564D913E52C57BD57DC8 /* DownPicker.h */,
+				EBF023E0C252513222F5F6957303857B /* DownPicker.m */,
+				9194784D32FCE392D85FB0ACBAAD5146 /* UIDownPicker.h */,
+				7B1EF166E05902CE7695057468C1B903 /* UIDownPicker.m */,
+				26D97FD589BD928296C6D556121F3C43 /* Resources */,
+				899072A9FC8B61FA6AE89E69E2E91BBF /* Support Files */,
+			);
+			path = DownPicker;
+			sourceTree = "<group>";
+		};
+		F591A3F576C3B55D6CB83B9440C8F058 /* SVProgressHUD */ = {
+			isa = PBXGroup;
+			children = (
+				E20A4F809BE2FDA803829864017F389F /* SVIndefiniteAnimatedView.h */,
+				510CC5C6F83E4EF3172CAAE3C923DEDB /* SVIndefiniteAnimatedView.m */,
+				49153EE9B910BBECF68330F7D8F6218C /* SVProgressHUD.h */,
+				28FD170CEAC62E94789304EA28C05BAE /* SVProgressHUD.m */,
+				AF792B22687E418EFD0F409180983EDE /* Resources */,
+				241795255C785B86BCA62FA5147C3E0D /* Support Files */,
+			);
+			path = SVProgressHUD;
+			sourceTree = "<group>";
+		};
+		F8B52F32858D0B926C50EAC50D5CB3F2 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				E5C3F8004E9F2FFB653EC410FA579383 /* M13Checkbox.xcconfig */,
+				887067EA910ECCD141B63423CD213F80 /* M13Checkbox-dummy.m */,
+				7800B8353A5453E51913CACCBF56DF5B /* M13Checkbox-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/M13Checkbox";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		6B21EC8979EC220A7E4686208571B34E /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				DB49B78C65BF1BEB8E3E3AD1FD3DA89F /* SVIndefiniteAnimatedView.h in Headers */,
-				4D136F5E31F0DD1703DCA29079161FC8 /* SVProgressHUD.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		6DCA7CC24D071C8CB9EBB6DDB2014891 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				EBABDD0769F96BA5F348EBA6CB5FCC1C /* DownPicker.h in Headers */,
 				9789FAE9034342E14AF81F0BE0E17301 /* UIDownPicker.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6F9BA253B066B76089A0D0B89D34275E /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A05AE06FC7B1962BC84E10896873F647 /* SVIndefiniteAnimatedView.h in Headers */,
+				F2339B7BC186B399650EDD37028A0BA2 /* SVProgressHUD.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -475,14 +637,30 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		7ED5CE1414648CFFBC52457297D8974D /* Headers */ = {
+		929952A64A0A757C4C56E5BEF198CF23 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				14399BF813C7B066444AD7E195EE7C3C /* TPKeyboardAvoidingCollectionView.h in Headers */,
-				26B7C51173CF309FD518C93D3AFBD746 /* TPKeyboardAvoidingScrollView.h in Headers */,
-				645877AD07D8C6F6311785659A78E437 /* TPKeyboardAvoidingTableView.h in Headers */,
-				114745892455193D4C5F9D19F0B29613 /* UIScrollView+TPKeyboardAvoidingAdditions.h in Headers */,
+				8A31D9DD6C3CB1C83E189E99F58ACF4C /* NMRangeSlider.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BE853E54F6547C2148777388A6EAEA0A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C0A10EF06D12B659A99125F913100BAB /* TPKeyboardAvoidingCollectionView.h in Headers */,
+				B49460F1FB7F7BD5C0935DB9D695E3AF /* TPKeyboardAvoidingScrollView.h in Headers */,
+				D689AA9B9B8A1F6BB54895EB43624C5C /* TPKeyboardAvoidingTableView.h in Headers */,
+				67B7FA82440C15E83A0499AA5EBD946D /* UIScrollView+TPKeyboardAvoidingAdditions.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E438E5E713FFC0EB6C3684BC8462A188 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EECCBBF1722DB5489B874CCBFE6A42AA /* M13Checkbox.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -503,24 +681,24 @@
 			);
 			name = "iOS-Slide-Menu";
 			productName = "iOS-Slide-Menu";
-			productReference = 2ABC43508B8F6B4B96AD74517914955F /* libiOS-Slide-Menu.a */;
+			productReference = F82A4AD668E1003B6E140DB9B2A69327 /* libiOS-Slide-Menu.a */;
 			productType = "com.apple.product-type.library.static";
 		};
-		0EB368D545DAD9A70A390648EBE4B31B /* TPKeyboardAvoiding */ = {
+		3385E626FC7EEE5B718B9C301EBDCD43 /* NMRangeSlider */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = F7C728649DCED8C1714902DE005BD66D /* Build configuration list for PBXNativeTarget "TPKeyboardAvoiding" */;
+			buildConfigurationList = ABFA414249A0033CDA50A8B5194B0C35 /* Build configuration list for PBXNativeTarget "NMRangeSlider" */;
 			buildPhases = (
-				791BAF6BB7A6CE0AD06400819799FBDA /* Sources */,
-				92C1DEA22796A5D1BFC2FDD3DCF5A8AC /* Frameworks */,
-				7ED5CE1414648CFFBC52457297D8974D /* Headers */,
+				BB593B51751F0EBFBF22BE1A721BD74C /* Sources */,
+				1370C41F9046DB11051333153F8AD917 /* Frameworks */,
+				929952A64A0A757C4C56E5BEF198CF23 /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = TPKeyboardAvoiding;
-			productName = TPKeyboardAvoiding;
-			productReference = 5F63947DD81A880B65A4DCC75CAE036C /* libTPKeyboardAvoiding.a */;
+			name = NMRangeSlider;
+			productName = NMRangeSlider;
+			productReference = 4551C5B2D6C6C9AA0870FA29EFBA2C9C /* libNMRangeSlider.a */;
 			productType = "com.apple.product-type.library.static";
 		};
 		5C05FADE30EF910B83CBF24CED9FD2F6 /* DownPicker */ = {
@@ -538,7 +716,58 @@
 			);
 			name = DownPicker;
 			productName = DownPicker;
-			productReference = 8EF08DBD9A9BD339F667B6587088846F /* libDownPicker.a */;
+			productReference = C0BED266041BC377445F2CC5BEF929F6 /* libDownPicker.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		6367D3D7DF75F04AF98EB62212E1F561 /* M13Checkbox */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3D2BC5AE1051B9BC5666273B2FC28BC0 /* Build configuration list for PBXNativeTarget "M13Checkbox" */;
+			buildPhases = (
+				C047FAE60F5F2B5A3E3E4899D8C7B886 /* Sources */,
+				960E642883E2080B0C4009264C6A468A /* Frameworks */,
+				E438E5E713FFC0EB6C3684BC8462A188 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = M13Checkbox;
+			productName = M13Checkbox;
+			productReference = E2F6E94C8B12E845C2F2D6A16796BFA7 /* libM13Checkbox.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		6C57BEA4E8D6256CEC73E578432A48E6 /* SVProgressHUD */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C02B27D638F2DBD2FE7626485F9782CB /* Build configuration list for PBXNativeTarget "SVProgressHUD" */;
+			buildPhases = (
+				5AF251705F2C3290D68F5146BCA889F9 /* Sources */,
+				F80003F2A333279D5E43FDB21EA83C75 /* Frameworks */,
+				6F9BA253B066B76089A0D0B89D34275E /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SVProgressHUD;
+			productName = SVProgressHUD;
+			productReference = 79906A54DBA239DCD9C28D28EACF04D9 /* libSVProgressHUD.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		726BA9938EAC88B7BFAE44FFB3C51BC8 /* TPKeyboardAvoiding */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6DB4409ACCB6910D31ECEE9F523CC699 /* Build configuration list for PBXNativeTarget "TPKeyboardAvoiding" */;
+			buildPhases = (
+				9E780A3CAE60BD4DADBAAF21E1740AD3 /* Sources */,
+				077E3A81F5334A762F1DBEEA1047F02C /* Frameworks */,
+				BE853E54F6547C2148777388A6EAEA0A /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TPKeyboardAvoiding;
+			productName = TPKeyboardAvoiding;
+			productReference = 957526CFB235DAF5E18707463B029DD3 /* libTPKeyboardAvoiding.a */;
 			productType = "com.apple.product-type.library.static";
 		};
 		926A84365F6B93264AF882DA49B7E685 /* DownPicker-DownPicker */ = {
@@ -555,44 +784,29 @@
 			);
 			name = "DownPicker-DownPicker";
 			productName = "DownPicker-DownPicker";
-			productReference = 37E54C5EB8327FF8E2FE0A3EF8869C70 /* DownPicker.bundle */;
+			productReference = 4ED91CDCB1F5293DC4F9920B7D1A8831 /* DownPicker.bundle */;
 			productType = "com.apple.product-type.bundle";
 		};
-		CCE983F73F9067B963F0E4726514B218 /* SVProgressHUD */ = {
+		BB830A9B8838E6FCC68A4BF1BB1E2142 /* Pods-3NGAGE */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 55CB1984C60452D1E82E2A97855E7872 /* Build configuration list for PBXNativeTarget "SVProgressHUD" */;
+			buildConfigurationList = C664BDD3423E3B7532A232E08CCF8A02 /* Build configuration list for PBXNativeTarget "Pods-3NGAGE" */;
 			buildPhases = (
-				80F0567BD4BBDEE39D2A69666A9E4948 /* Sources */,
-				1EEE8B81846C4C06E336E6A8284E422A /* Frameworks */,
-				6B21EC8979EC220A7E4686208571B34E /* Headers */,
+				C41E2F0F722E83F05E8ECED5D767521F /* Sources */,
+				B56C23EFE9AABF5C9788E84411039934 /* Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-			);
-			name = SVProgressHUD;
-			productName = SVProgressHUD;
-			productReference = 8CD7305E57302425BB5C1AA0B4BF9BFB /* libSVProgressHUD.a */;
-			productType = "com.apple.product-type.library.static";
-		};
-		D606D30E69C2058A374EAA74EFD5D863 /* Pods-3NGAGE */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = BB6701009EC780425BBB10F9D3CC77D8 /* Build configuration list for PBXNativeTarget "Pods-3NGAGE" */;
-			buildPhases = (
-				4420024CE9884B49E30727EDD40E6D01 /* Sources */,
-				5A2809ABFEE03E304934457197B96FB8 /* Frameworks */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				4B120A2ECDBD074F043797C4BA617EFD /* PBXTargetDependency */,
-				7DF538D3C7CBDD219DBAC14084DE1750 /* PBXTargetDependency */,
-				69433E3D2B11FD8403BD922D2C2008C1 /* PBXTargetDependency */,
-				E3E79DDF896C7092C13EEB7A097B8A2B /* PBXTargetDependency */,
+				BF49CD5A3E3F7CEA01B805C1347A00BF /* PBXTargetDependency */,
+				4F6D0E59E836132E5304561797A6978D /* PBXTargetDependency */,
+				3682EF5B0CBBBA8F203F9BEDA5712DDC /* PBXTargetDependency */,
+				05664B98F8A9B49F2F3D270505EABE80 /* PBXTargetDependency */,
+				26A1C732EA7BAD3269F43E710805CF67 /* PBXTargetDependency */,
+				7236F19B20B9FEAD36AA4A5ECD233F5F /* PBXTargetDependency */,
 			);
 			name = "Pods-3NGAGE";
 			productName = "Pods-3NGAGE";
-			productReference = 38B31DBF48E13DE8BF02F0E550655B9F /* libPods-3NGAGE.a */;
+			productReference = 51D2A67889EE931FD7D220765F601B32 /* libPods-3NGAGE.a */;
 			productType = "com.apple.product-type.library.static";
 		};
 /* End PBXNativeTarget section */
@@ -612,16 +826,18 @@
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = 6E9CF69B7745CB1DC633E752CEB2CA96 /* Products */;
+			productRefGroup = 761F1B7044857684A841CAAAF087EC9B /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
 				5C05FADE30EF910B83CBF24CED9FD2F6 /* DownPicker */,
 				926A84365F6B93264AF882DA49B7E685 /* DownPicker-DownPicker */,
 				01C8647DD33AEB6D8706D1A9DB17FA18 /* iOS-Slide-Menu */,
-				D606D30E69C2058A374EAA74EFD5D863 /* Pods-3NGAGE */,
-				CCE983F73F9067B963F0E4726514B218 /* SVProgressHUD */,
-				0EB368D545DAD9A70A390648EBE4B31B /* TPKeyboardAvoiding */,
+				6367D3D7DF75F04AF98EB62212E1F561 /* M13Checkbox */,
+				3385E626FC7EEE5B718B9C301EBDCD43 /* NMRangeSlider */,
+				BB830A9B8838E6FCC68A4BF1BB1E2142 /* Pods-3NGAGE */,
+				6C57BEA4E8D6256CEC73E578432A48E6 /* SVProgressHUD */,
+				726BA9938EAC88B7BFAE44FFB3C51BC8 /* TPKeyboardAvoiding */,
 			);
 		};
 /* End PBXProject section */
@@ -654,14 +870,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		4420024CE9884B49E30727EDD40E6D01 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				CE3225EFFA17672A2711E2E79A65B89C /* Pods-3NGAGE-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		45D671572B80A51623F7B329540D45EA /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -672,25 +880,51 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		791BAF6BB7A6CE0AD06400819799FBDA /* Sources */ = {
+		5AF251705F2C3290D68F5146BCA889F9 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				749BD82EBAC60C214466DF3D94981998 /* TPKeyboardAvoiding-dummy.m in Sources */,
-				69D887E08F01357F82DCC0B019E158BF /* TPKeyboardAvoidingCollectionView.m in Sources */,
-				33951291894B06E96CDCA52CB5EF5F10 /* TPKeyboardAvoidingScrollView.m in Sources */,
-				D2AF2CDE1DDC6797EB168F37F757A2A9 /* TPKeyboardAvoidingTableView.m in Sources */,
-				34599360BBD114DF26A120A67F401BE8 /* UIScrollView+TPKeyboardAvoidingAdditions.m in Sources */,
+				3EE61E37944B50702D2A53D50ECF6D43 /* SVIndefiniteAnimatedView.m in Sources */,
+				C751E09E34CE2242D57B663762A9F9FE /* SVProgressHUD-dummy.m in Sources */,
+				351457F6C42F273B28AD298DD5DA487C /* SVProgressHUD.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		80F0567BD4BBDEE39D2A69666A9E4948 /* Sources */ = {
+		9E780A3CAE60BD4DADBAAF21E1740AD3 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1609EA868C30668636A5E8B5F6D9FD52 /* SVIndefiniteAnimatedView.m in Sources */,
-				A9F942A072FFE2FC49A95820939162E5 /* SVProgressHUD-dummy.m in Sources */,
-				5B09AFEB06881B8F054EFCCAE54C252A /* SVProgressHUD.m in Sources */,
+				3BD30B299F84BA462DB7B718FCE26F80 /* TPKeyboardAvoiding-dummy.m in Sources */,
+				996A66970C91A5913F4DC83555F84C8A /* TPKeyboardAvoidingCollectionView.m in Sources */,
+				DE09B65A24E66AD4DE5F8B2EF74FE035 /* TPKeyboardAvoidingScrollView.m in Sources */,
+				E0582AD908C68615949AAF350188F81C /* TPKeyboardAvoidingTableView.m in Sources */,
+				0F79B2487139DE04566504888BD9CA7F /* UIScrollView+TPKeyboardAvoidingAdditions.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BB593B51751F0EBFBF22BE1A721BD74C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				21204CD20784E06E0730CF4D40B8D5F7 /* NMRangeSlider-dummy.m in Sources */,
+				826D3469FF493187330F2173EB981F06 /* NMRangeSlider.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C047FAE60F5F2B5A3E3E4899D8C7B886 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				36566E78171B2BCA3392E1669B1B496E /* M13Checkbox-dummy.m in Sources */,
+				9F374D926754AAA9997F0D80ABD50D0D /* M13Checkbox.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C41E2F0F722E83F05E8ECED5D767521F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6E2F7EAFA14A8BAECED12F5821AF17B9 /* Pods-3NGAGE-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -704,29 +938,41 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		4B120A2ECDBD074F043797C4BA617EFD /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = DownPicker;
-			target = 5C05FADE30EF910B83CBF24CED9FD2F6 /* DownPicker */;
-			targetProxy = 7570FC20798674A206F130540B963CC1 /* PBXContainerItemProxy */;
-		};
-		69433E3D2B11FD8403BD922D2C2008C1 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = TPKeyboardAvoiding;
-			target = 0EB368D545DAD9A70A390648EBE4B31B /* TPKeyboardAvoiding */;
-			targetProxy = 08773806C9971DC973AA7033AF0BD601 /* PBXContainerItemProxy */;
-		};
-		7DF538D3C7CBDD219DBAC14084DE1750 /* PBXTargetDependency */ = {
+		05664B98F8A9B49F2F3D270505EABE80 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = SVProgressHUD;
-			target = CCE983F73F9067B963F0E4726514B218 /* SVProgressHUD */;
-			targetProxy = 3223047398B63E68F405FC4FCD8ED574 /* PBXContainerItemProxy */;
+			target = 6C57BEA4E8D6256CEC73E578432A48E6 /* SVProgressHUD */;
+			targetProxy = B5ABBB51DB4595B7CE9FB0736EC6DE09 /* PBXContainerItemProxy */;
 		};
-		E3E79DDF896C7092C13EEB7A097B8A2B /* PBXTargetDependency */ = {
+		26A1C732EA7BAD3269F43E710805CF67 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = TPKeyboardAvoiding;
+			target = 726BA9938EAC88B7BFAE44FFB3C51BC8 /* TPKeyboardAvoiding */;
+			targetProxy = A75C622DE7DF7AC44F5E39398E5B2BCF /* PBXContainerItemProxy */;
+		};
+		3682EF5B0CBBBA8F203F9BEDA5712DDC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = NMRangeSlider;
+			target = 3385E626FC7EEE5B718B9C301EBDCD43 /* NMRangeSlider */;
+			targetProxy = B3B52936D33C2CA7B7AE327213C469E2 /* PBXContainerItemProxy */;
+		};
+		4F6D0E59E836132E5304561797A6978D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = M13Checkbox;
+			target = 6367D3D7DF75F04AF98EB62212E1F561 /* M13Checkbox */;
+			targetProxy = D043C849EF498D3640D2CB6FDDF631D8 /* PBXContainerItemProxy */;
+		};
+		7236F19B20B9FEAD36AA4A5ECD233F5F /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "iOS-Slide-Menu";
 			target = 01C8647DD33AEB6D8706D1A9DB17FA18 /* iOS-Slide-Menu */;
-			targetProxy = 98C881E6E70DE39DC9EC8DB5009AF0B1 /* PBXContainerItemProxy */;
+			targetProxy = AE8FC19BBA33ADF20D2E12CF060DEA14 /* PBXContainerItemProxy */;
+		};
+		BF49CD5A3E3F7CEA01B805C1347A00BF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = DownPicker;
+			target = 5C05FADE30EF910B83CBF24CED9FD2F6 /* DownPicker */;
+			targetProxy = F97C392CC827F2D85696A0F6DBDE9D48 /* PBXContainerItemProxy */;
 		};
 		E9271D62982547C0402FE53675002B61 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
@@ -737,26 +983,9 @@
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		0E19E30A898321F91998501F90B937A7 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = F9544CECB1CC219194080CF781AAAB49 /* Pods-3NGAGE.debug.xcconfig */;
-			buildSettings = {
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				MACH_O_TYPE = staticlib;
-				MTL_ENABLE_DEBUG_INFO = YES;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-			};
-			name = Debug;
-		};
 		1308730BAD60EEADF25160D1678EC608 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 748409D3E65B8954B98D6ECE3DA8EA39 /* DownPicker.xcconfig */;
+			baseConfigurationReference = 23671F9211ED446CAF8DC0F82415592A /* DownPicker.xcconfig */;
 			buildSettings = {
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_PREFIX_HEADER = "Target Support Files/DownPicker/DownPicker-prefix.pch";
@@ -774,7 +1003,7 @@
 		};
 		1573F4ABB657FFB55D545C28C1FEBA6C /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 748409D3E65B8954B98D6ECE3DA8EA39 /* DownPicker.xcconfig */;
+			baseConfigurationReference = 23671F9211ED446CAF8DC0F82415592A /* DownPicker.xcconfig */;
 			buildSettings = {
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_PREFIX_HEADER = "Target Support Files/DownPicker/DownPicker-prefix.pch";
@@ -790,32 +1019,14 @@
 			};
 			name = Release;
 		};
-		28A4DF368AEEAC8B4F0FBD62A8533887 /* Release */ = {
+		20C2BFEA226C6165DD60C57432784613 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = B7E782A42E46AB19AB282B33F648D47E /* SVProgressHUD.xcconfig */;
-			buildSettings = {
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/SVProgressHUD/SVProgressHUD-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PRIVATE_HEADERS_FOLDER_PATH = "";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				PUBLIC_HEADERS_FOLDER_PATH = "";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-			};
-			name = Release;
-		};
-		64CC745D5786AD2CB948EFFEAEB4C0BB /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3BFD834D4B97388697E3E364A720933E /* Pods-3NGAGE.release.xcconfig */;
+			baseConfigurationReference = F9544CECB1CC219194080CF781AAAB49 /* Pods-3NGAGE.debug.xcconfig */;
 			buildSettings = {
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MACH_O_TYPE = staticlib;
-				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_ENABLE_DEBUG_INFO = YES;
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
@@ -823,23 +1034,11 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 			};
-			name = Release;
-		};
-		6E925FD5C9BC6F4D2CC472A03D4E00B1 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 748409D3E65B8954B98D6ECE3DA8EA39 /* DownPicker.xcconfig */;
-			buildSettings = {
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				PRODUCT_NAME = DownPicker;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				WRAPPER_EXTENSION = bundle;
-			};
 			name = Debug;
 		};
-		8AEFFB1C10560567C4A4F5A6CABEF2C8 /* Release */ = {
+		3F9C3CC577C76C4C1C6DF905717D838D /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 62206C4F3FE5EA6DDADE3567804DD941 /* TPKeyboardAvoiding.xcconfig */;
+			baseConfigurationReference = E70789C32D3B46EFBE7962E8594F0F3C /* TPKeyboardAvoiding.xcconfig */;
 			buildSettings = {
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_PREFIX_HEADER = "Target Support Files/TPKeyboardAvoiding/TPKeyboardAvoiding-prefix.pch";
@@ -855,9 +1054,75 @@
 			};
 			name = Release;
 		};
+		48E76FCE865152F85E2D4B4ECE04EEEC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9F0C933C855204EC6977D16D64768397 /* SVProgressHUD.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/SVProgressHUD/SVProgressHUD-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		6E925FD5C9BC6F4D2CC472A03D4E00B1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 23671F9211ED446CAF8DC0F82415592A /* DownPicker.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = DownPicker;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		864D97A8A15BF104D79B0102B47BD1EA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E5C3F8004E9F2FFB653EC410FA579383 /* M13Checkbox.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/M13Checkbox/M13Checkbox-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		92BB9BC83D56AE76F32A990F2EEC9023 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E5C3F8004E9F2FFB653EC410FA579383 /* M13Checkbox.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/M13Checkbox/M13Checkbox-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
 		A09022385DAFA4DD804D416CDAC1483A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 748409D3E65B8954B98D6ECE3DA8EA39 /* DownPicker.xcconfig */;
+			baseConfigurationReference = 23671F9211ED446CAF8DC0F82415592A /* DownPicker.xcconfig */;
 			buildSettings = {
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				PRODUCT_NAME = DownPicker;
@@ -906,9 +1171,27 @@
 			};
 			name = Debug;
 		};
+		C1750D8B151CBD7023DE1108EB90AE9A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BEF161670897FB955942B60955552801 /* NMRangeSlider.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/NMRangeSlider/NMRangeSlider-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
 		CD649D687E71238D0241723C08E94636 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 549C82A94D6514614CC939F3A565CED6 /* iOS-Slide-Menu.xcconfig */;
+			baseConfigurationReference = 2F017E94C0903C5360184D27D6CC8182 /* iOS-Slide-Menu.xcconfig */;
 			buildSettings = {
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_PREFIX_HEADER = "Target Support Files/iOS-Slide-Menu/iOS-Slide-Menu-prefix.pch";
@@ -926,7 +1209,7 @@
 		};
 		D357D1E480DADE1653EE0B5AB9B54E86 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 549C82A94D6514614CC939F3A565CED6 /* iOS-Slide-Menu.xcconfig */;
+			baseConfigurationReference = 2F017E94C0903C5360184D27D6CC8182 /* iOS-Slide-Menu.xcconfig */;
 			buildSettings = {
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_PREFIX_HEADER = "Target Support Files/iOS-Slide-Menu/iOS-Slide-Menu-prefix.pch";
@@ -942,9 +1225,9 @@
 			};
 			name = Debug;
 		};
-		DCB23BCAB4C0DE123DEEE8E9BBBEE05D /* Debug */ = {
+		D7BF87239E557AE539E39CB7C6EC4B13 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 62206C4F3FE5EA6DDADE3567804DD941 /* TPKeyboardAvoiding.xcconfig */;
+			baseConfigurationReference = E70789C32D3B46EFBE7962E8594F0F3C /* TPKeyboardAvoiding.xcconfig */;
 			buildSettings = {
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_PREFIX_HEADER = "Target Support Files/TPKeyboardAvoiding/TPKeyboardAvoiding-prefix.pch";
@@ -960,9 +1243,26 @@
 			};
 			name = Debug;
 		};
-		E6657B46B3C4C468B60E1872FB67BFEF /* Debug */ = {
+		E58386F8C66E135C1F57774DD94A06FB /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = B7E782A42E46AB19AB282B33F648D47E /* SVProgressHUD.xcconfig */;
+			baseConfigurationReference = 3BFD834D4B97388697E3E364A720933E /* Pods-3NGAGE.release.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		F69410DB07719684999B705DF315E0B5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9F0C933C855204EC6977D16D64768397 /* SVProgressHUD.xcconfig */;
 			buildSettings = {
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_PREFIX_HEADER = "Target Support Files/SVProgressHUD/SVProgressHUD-prefix.pch";
@@ -1012,6 +1312,24 @@
 			};
 			name = Release;
 		};
+		FF818C4892619D6040C29227D182C13A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BEF161670897FB955942B60955552801 /* NMRangeSlider.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/NMRangeSlider/NMRangeSlider-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -1033,11 +1351,20 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		55CB1984C60452D1E82E2A97855E7872 /* Build configuration list for PBXNativeTarget "SVProgressHUD" */ = {
+		3D2BC5AE1051B9BC5666273B2FC28BC0 /* Build configuration list for PBXNativeTarget "M13Checkbox" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				E6657B46B3C4C468B60E1872FB67BFEF /* Debug */,
-				28A4DF368AEEAC8B4F0FBD62A8533887 /* Release */,
+				864D97A8A15BF104D79B0102B47BD1EA /* Debug */,
+				92BB9BC83D56AE76F32A990F2EEC9023 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6DB4409ACCB6910D31ECEE9F523CC699 /* Build configuration list for PBXNativeTarget "TPKeyboardAvoiding" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D7BF87239E557AE539E39CB7C6EC4B13 /* Debug */,
+				3F9C3CC577C76C4C1C6DF905717D838D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -1060,20 +1387,29 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		BB6701009EC780425BBB10F9D3CC77D8 /* Build configuration list for PBXNativeTarget "Pods-3NGAGE" */ = {
+		ABFA414249A0033CDA50A8B5194B0C35 /* Build configuration list for PBXNativeTarget "NMRangeSlider" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				0E19E30A898321F91998501F90B937A7 /* Debug */,
-				64CC745D5786AD2CB948EFFEAEB4C0BB /* Release */,
+				FF818C4892619D6040C29227D182C13A /* Debug */,
+				C1750D8B151CBD7023DE1108EB90AE9A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		F7C728649DCED8C1714902DE005BD66D /* Build configuration list for PBXNativeTarget "TPKeyboardAvoiding" */ = {
+		C02B27D638F2DBD2FE7626485F9782CB /* Build configuration list for PBXNativeTarget "SVProgressHUD" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				DCB23BCAB4C0DE123DEEE8E9BBBEE05D /* Debug */,
-				8AEFFB1C10560567C4A4F5A6CABEF2C8 /* Release */,
+				F69410DB07719684999B705DF315E0B5 /* Debug */,
+				48E76FCE865152F85E2D4B4ECE04EEEC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C664BDD3423E3B7532A232E08CCF8A02 /* Build configuration list for PBXNativeTarget "Pods-3NGAGE" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				20C2BFEA226C6165DD60C57432784613 /* Debug */,
+				E58386F8C66E135C1F57774DD94A06FB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

@@ -13,24 +13,27 @@ class AddRegisterViewController: UIViewController {
     @IBOutlet weak var fnameTxtView: UITextField!
     @IBOutlet weak var aliasTxtView: UITextField!
     @IBOutlet weak var emailTxtView: UITextField!
-    @IBOutlet weak var locationTxtView: UITextField!
     
-//    @IBOutlet weak var dobTxtView: UITextField!
+    @IBOutlet weak var locationTxtView: UITextField!
     @IBOutlet weak var ageTxtView: UITextField!
     @IBOutlet weak var ethnicityTxtView: UITextField!
     @IBOutlet weak var heightTxtView: UITextField!
     @IBOutlet weak var bodyTxtView: UITextField!
-    @IBOutlet weak var bioTxtView: UITextField!
+    @IBOutlet weak var bioTxtView: UITextView!
     
 //    var dobPicker: DownPicker!
     var agePicker: DownPicker!
     var ethnicityPicker: DownPicker!
     var heightPicker: DownPicker!
     var bodyPicker: DownPicker!
-    var bioPicker: DownPicker!
+    var locationPicker: DownPicker!
+    
+    var appDelegate: AppDelegate!
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        appDelegate = UIApplication.sharedApplication().delegate as! AppDelegate
         
         fnameTxtView.attributedPlaceholder = NSAttributedString(string:"Full Name",
             attributes:[NSForegroundColorAttributeName: UIColor(red: 50/255.0, green: 80/255.0, blue: 50/255.0, alpha: 1.0)])
@@ -38,11 +41,9 @@ class AddRegisterViewController: UIViewController {
             attributes:[NSForegroundColorAttributeName: UIColor(red: 50/255.0, green: 80/255.0, blue: 50/255.0, alpha: 1.0)])
         emailTxtView.attributedPlaceholder = NSAttributedString(string:"Email",
             attributes:[NSForegroundColorAttributeName: UIColor(red: 50/255.0, green: 80/255.0, blue: 50/255.0, alpha: 1.0)])
-        locationTxtView.attributedPlaceholder = NSAttributedString(string:"Location",
-            attributes:[NSForegroundColorAttributeName: UIColor(red: 50/255.0, green: 80/255.0, blue: 50/255.0, alpha: 1.0)])
         
-//        dobTxtView.attributedPlaceholder = NSAttributedString(string:"Birthday",
-//            attributes:[NSForegroundColorAttributeName: UIColor(red: 200/255.0, green: 80/255.0, blue: 160/255.0, alpha: 1.0)])
+        locationTxtView.attributedPlaceholder = NSAttributedString(string:"Location",
+            attributes:[NSForegroundColorAttributeName: UIColor(red: 200/255.0, green: 80/255.0, blue: 160/255.0, alpha: 1.0)])
         ageTxtView.attributedPlaceholder = NSAttributedString(string:"Age",
             attributes:[NSForegroundColorAttributeName: UIColor(red: 200/255.0, green: 80/255.0, blue: 160/255.0, alpha: 1.0)])
         ethnicityTxtView.attributedPlaceholder = NSAttributedString(string:"Ethnicity",
@@ -50,8 +51,6 @@ class AddRegisterViewController: UIViewController {
         heightTxtView.attributedPlaceholder = NSAttributedString(string:"Height",
             attributes:[NSForegroundColorAttributeName: UIColor(red: 200/255.0, green: 80/255.0, blue: 160/255.0, alpha: 1.0)])
         bodyTxtView.attributedPlaceholder = NSAttributedString(string:"Body Type",
-            attributes:[NSForegroundColorAttributeName: UIColor(red: 200/255.0, green: 80/255.0, blue: 160/255.0, alpha: 1.0)])
-        bioTxtView.attributedPlaceholder = NSAttributedString(string:"Bio",
             attributes:[NSForegroundColorAttributeName: UIColor(red: 200/255.0, green: 80/255.0, blue: 160/255.0, alpha: 1.0)])
         
         // age
@@ -62,7 +61,7 @@ class AddRegisterViewController: UIViewController {
         agePicker = DownPicker(textField: ageTxtView, withData: ageArr)
         
         // ethnicity
-        ethnicityPicker = DownPicker(textField: ethnicityTxtView, withData: ["ethnicity1", "ethnicity2", "ethnicity3"])
+        ethnicityPicker = DownPicker(textField: ethnicityTxtView, withData: ["WHT", "LTN", "ASN", "BLK", "OTR"])
         
         // height
         var heightArr: [String] = []
@@ -72,17 +71,15 @@ class AddRegisterViewController: UIViewController {
         heightPicker = DownPicker(textField: heightTxtView, withData: heightArr)
         
         // body
-        bodyPicker = DownPicker(textField: bodyTxtView, withData: ["Fat", "Medium", "Thin"])
+        bodyPicker = DownPicker(textField: bodyTxtView, withData: ["SLIM", "FIT", "AVERAGE", "CHUBBY", "OVERHEIGHT"])
         
         // bio
-        bioPicker = DownPicker(textField: bioTxtView, withData: ["bio1", "bio2", "bio3", "bio4"])
+        locationPicker = DownPicker(textField: locationTxtView, withData: appDelegate.g_var.locations)
     }
 
     @IBAction func nextBtnClk(sender: UIButton) {
 
         if self.checkValidate() {
-            
-            let appDelegate = UIApplication.sharedApplication().delegate as! AppDelegate
 
             SVProgressHUD.showWithStatus("Saving...")
         
@@ -92,18 +89,13 @@ class AddRegisterViewController: UIViewController {
             
             QBRequest .updateCurrentUser(updateParameters, successBlock: { (response: QBResponse, user:QBUUser?) -> Void in
                 
-                appDelegate.g_var.currentUser = user
-                appDelegate.g_var.mAge = self.agePicker.text
-                appDelegate.g_var.mEthnicity = self.ethnicityPicker.text
-                appDelegate.g_var.mHeight = self.heightPicker.text
-                appDelegate.g_var.mBody = self.bodyPicker.text
-                appDelegate.g_var.mBio = self.bioPicker.text
-                appDelegate.g_var.mAlias = self.aliasTxtView.text!
-                appDelegate.g_var.mLocation = self.locationTxtView.text!
+                self.appDelegate.g_var.currentUser.qbUser = user
+                self.appDelegate.g_var.currentUser.l
                 
                 let object: QBCOCustomObject = QBCOCustomObject()
                 object.className = "Meta"
                 
+                object.fields!["_parent_id"] = String(user!.ID)
                 object.fields!["Age"] = self.agePicker.text
                 object.fields!["Ethnicity"] = self.ethnicityPicker.text
                 object.fields!["Height"] = self.heightPicker.text
@@ -112,13 +104,26 @@ class AddRegisterViewController: UIViewController {
                 object.fields!["Alias"] = self.aliasTxtView.text
                 object.fields!["Location"] = self.locationTxtView.text
                 
-                QBRequest .createObject(object, successBlock: { (response:QBResponse, nObj: QBCOCustomObject?) -> Void in
-                    SVProgressHUD.dismiss()
+//                QBRequest.createObject(object, successBlock: , errorBlock: )
+                QBRequest .createObject(object, successBlock: { (objResponse:QBResponse, nObj: QBCOCustomObject?) -> Void in
                     
-                    self.dismissViewControllerAnimated(true, completion: nil)
+                    //print(nObj)
+                    let newParameters: QBUpdateUserParameters = QBUpdateUserParameters()
+                    newParameters.twitterDigitsID = (objResponse.data?.valueForKey("_id"))! as? String
                     
-                    let resultView:SResultViewController = appDelegate.mainStoryboard.instantiateViewControllerWithIdentifier("resultCtrl") as! SResultViewController
-                    SlideNavigationController.sharedInstance().pushViewController(resultView, animated: false)
+                    QBRequest .updateCurrentUser(newParameters, successBlock: { (response: QBResponse, user:QBUUser?) -> Void in
+                        
+                        SVProgressHUD.dismiss()
+                        
+                        self.dismissViewControllerAnimated(true, completion: nil)
+                        
+                        let resultView:SResultViewController = appDelegate.mainStoryboard.instantiateViewControllerWithIdentifier("resultCtrl") as! SResultViewController
+                        SlideNavigationController.sharedInstance().pushViewController(resultView, animated: false)
+                        
+                        }, errorBlock: { (errResponse) -> Void in
+                            SVProgressHUD.dismiss()
+                            self.alert("Err occured!")
+                    })
                     
                     }, errorBlock: { (errResponse: QBResponse) -> Void in
                         SVProgressHUD.dismiss()

@@ -10,6 +10,8 @@ pod 'iOS-Slide-Menu'
 pod 'TPKeyboardAvoiding'
 pod 'DownPicker'
 pod 'QuickBlox'
+pod 'M13Checkbox'
+pod 'NMRangeSlider'
 
 end
 

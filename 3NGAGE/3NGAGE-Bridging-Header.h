@@ -6,4 +6,6 @@
 #import "TPKeyboardAvoidingScrollView.h"
 #import "SlideNavigationController.h"
 #import "DownPicker.h"
+#import "M13Checkbox.h"
+#import "NMRangeSlider.h"
 #import <Quickblox/Quickblox.h>

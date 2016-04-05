@@ -12,6 +12,8 @@
 		4F009FCF1C8D79B9002F8EBE /* icon-after-pink.png in Resources */ = {isa = PBXBuildFile; fileRef = 4F009FCE1C8D79B9002F8EBE /* icon-after-pink.png */; };
 		4F009FD11C8DBBE9002F8EBE /* Global.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F009FD01C8DBBE9002F8EBE /* Global.swift */; };
 		4F05E0F61C8D5CF800B2985E /* icon-before.png in Resources */ = {isa = PBXBuildFile; fileRef = 4F05E0F51C8D5CF800B2985E /* icon-before.png */; };
+		4F0DA6151C8F2A1200DA7461 /* LoadViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F0DA6141C8F2A1200DA7461 /* LoadViewController.swift */; };
+		4F0DA6191C8F400400DA7461 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F0DA6181C8F400400DA7461 /* User.swift */; };
 		4F5ED69F1C886AB1000FA346 /* 7335a.png in Resources */ = {isa = PBXBuildFile; fileRef = 4F5ED6971C886AB1000FA346 /* 7335a.png */; };
 		4F5ED6A01C886AB1000FA346 /* 7335b.png in Resources */ = {isa = PBXBuildFile; fileRef = 4F5ED6981C886AB1000FA346 /* 7335b.png */; };
 		4F5ED6A11C886AB1000FA346 /* 7335c.png in Resources */ = {isa = PBXBuildFile; fileRef = 4F5ED6991C886AB1000FA346 /* 7335c.png */; };
@@ -54,6 +56,8 @@
 		4F009FCE1C8D79B9002F8EBE /* icon-after-pink.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "icon-after-pink.png"; path = "Resources/icon-after-pink.png"; sourceTree = "<group>"; };
 		4F009FD01C8DBBE9002F8EBE /* Global.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Global.swift; sourceTree = "<group>"; };
 		4F05E0F51C8D5CF800B2985E /* icon-before.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "icon-before.png"; path = "Resources/icon-before.png"; sourceTree = "<group>"; };
+		4F0DA6141C8F2A1200DA7461 /* LoadViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoadViewController.swift; sourceTree = "<group>"; };
+		4F0DA6181C8F400400DA7461 /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		4F5ED6971C886AB1000FA346 /* 7335a.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 7335a.png; path = Resources/7335/7335a.png; sourceTree = "<group>"; };
 		4F5ED6981C886AB1000FA346 /* 7335b.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 7335b.png; path = Resources/7335/7335b.png; sourceTree = "<group>"; };
 		4F5ED6991C886AB1000FA346 /* 7335c.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 7335c.png; path = Resources/7335/7335c.png; sourceTree = "<group>"; };
@@ -107,6 +111,30 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4F0DA6161C8F2C0C00DA7461 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				4F009FD01C8DBBE9002F8EBE /* Global.swift */,
+				4F0DA6181C8F400400DA7461 /* User.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		4F0DA6171C8F2C1A00DA7461 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				4F921C8C1C8CAD0E0088E89C /* MenuViewController.swift */,
+				4F921C821C8CA15A0088E89C /* InfoViewController.swift */,
+				4F921C881C8CACB50088E89C /* LoginViewController.swift */,
+				4F921C8A1C8CACF50088E89C /* RegisterViewController.swift */,
+				4F009FCC1C8D6CFB002F8EBE /* AddRegisterViewController.swift */,
+				4F0DA6141C8F2A1200DA7461 /* LoadViewController.swift */,
+				4F715B7E1C87557C004BAE39 /* SResultViewController.swift */,
+				4F921C8E1C8CAD8F0088E89C /* UpdateViewController.swift */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
 		4F5ED6961C886AA4000FA346 /* pic */ = {
 			isa = PBXGroup;
 			children = (
@@ -143,15 +171,9 @@
 		4F715B671C875400004BAE39 /* 3NGAGE */ = {
 			isa = PBXGroup;
 			children = (
+				4F0DA6171C8F2C1A00DA7461 /* View */,
+				4F0DA6161C8F2C0C00DA7461 /* Model */,
 				4F715B681C875400004BAE39 /* AppDelegate.swift */,
-				4F009FD01C8DBBE9002F8EBE /* Global.swift */,
-				4F715B7E1C87557C004BAE39 /* SResultViewController.swift */,
-				4F921C821C8CA15A0088E89C /* InfoViewController.swift */,
-				4F921C881C8CACB50088E89C /* LoginViewController.swift */,
-				4F921C8A1C8CACF50088E89C /* RegisterViewController.swift */,
-				4F921C8C1C8CAD0E0088E89C /* MenuViewController.swift */,
-				4F921C8E1C8CAD8F0088E89C /* UpdateViewController.swift */,
-				4F009FCC1C8D6CFB002F8EBE /* AddRegisterViewController.swift */,
 				4F715B6C1C875400004BAE39 /* Main.storyboard */,
 				4F715B801C8756C7004BAE39 /* Resources */,
 				4F715B6F1C875400004BAE39 /* Assets.xcassets */,
@@ -370,6 +392,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4F0DA6151C8F2A1200DA7461 /* LoadViewController.swift in Sources */,
 				4F921C891C8CACB50088E89C /* LoginViewController.swift in Sources */,
 				4F921C8D1C8CAD0E0088E89C /* MenuViewController.swift in Sources */,
 				4F921C8B1C8CACF50088E89C /* RegisterViewController.swift in Sources */,
@@ -379,6 +402,7 @@
 				4F715B7F1C87557C004BAE39 /* SResultViewController.swift in Sources */,
 				4F009FCD1C8D6CFB002F8EBE /* AddRegisterViewController.swift in Sources */,
 				4F009FD11C8DBBE9002F8EBE /* Global.swift in Sources */,
+				4F0DA6191C8F400400DA7461 /* User.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -495,14 +519,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Distribution: CITLALI, LLC (7C2MRVZDK5)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: CITLALI, LLC (7C2MRVZDK5)";
 				INFOPLIST_FILE = 3NGAGE/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.citlali.engage;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE = "0e9df716-2f0c-4fd5-b834-7069c822f8f1";
 				SWIFT_OBJC_BRIDGING_HEADER = "3NGAGE/3NGAGE-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				TARGETED_DEVICE_FAMILY = 1;
@@ -515,14 +539,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Distribution: CITLALI, LLC (7C2MRVZDK5)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: CITLALI, LLC (7C2MRVZDK5)";
 				INFOPLIST_FILE = 3NGAGE/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.citlali.engage;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE = "0e9df716-2f0c-4fd5-b834-7069c822f8f1";
 				SWIFT_OBJC_BRIDGING_HEADER = "3NGAGE/3NGAGE-Bridging-Header.h";
 				TARGETED_DEVICE_FAMILY = 1;
 			};
